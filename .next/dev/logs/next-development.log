@@ -1,0 +1,2341 @@
+[00:00:02.041] Server  WARN     ⚠ The "middleware" file convention is deprecated. Please use "proxy" instead. Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
+[00:00:02.445] Server  LOG      ✓ Ready in 1800ms
+[00:00:06.114] Server  LOG      ○ Compiling / ...
+[00:00:16.736] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:17.375] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:17.375] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/shop/tech-store/product/b41220c0-504b-42ff-bbcc-2a9683aed129","route":"/shop/[slug]/product/[productId]"}
+[00:00:17.375] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/shop/tech-store/product/b41220c0-504b-42ff-bbcc-2a9683aed129 color: rgb(120, 120, 120) color: inherit {"dp":"/shop/[slug]/product/[productId]","o":"http://localhost:3000/shop/tech-store/product/b41220c0-504b-42ff-bbcc-2a9683aed129","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763335207681}
+[00:00:17.999] Browser LOG     [Product Page] Shop: Tech Store (ID: 550e8400-e29b-41d4-a716-446655440001)
+[00:00:17.999] Browser LOG     [Product Page] Using Pixel ID: 3647080795423665 for this shop
+[00:00:17.999] Browser LOG     Facebook Pixel script appended to the DOM.
+[00:00:17.999] Browser ERROR   Failed to load Facebook Pixel script. Retrying...
+[00:00:18.232] Browser LOG     [Product Page] Tracking ViewContent for product: svdvsvd
+[00:00:18.233] Browser WARN    Facebook Pixel is not initialized. Event tracking skipped.
+[00:00:18.735] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:20.008] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:20.016] Browser LOG     Facebook Pixel script already loaded.
+[00:00:20.016] Browser ERROR   Facebook Pixel function (fbq) is not available. Retrying...
+[00:00:20.807] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:20.807] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:00:20.807] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763335210098}
+[00:00:20.927] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:21.502] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:21.832] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:21.832] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/dashboard/settings","route":"/dashboard/settings"}
+[00:00:21.832] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/dashboard/settings color: rgb(120, 120, 120) color: inherit {"dp":"/dashboard/settings","o":"http://localhost:3000/dashboard/settings","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763335211168}
+[00:00:21.887] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:21.887] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:00:21.887] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763335211578}
+[00:00:22.081] Browser LOG     Facebook Pixel script already loaded.
+[00:00:22.081] Browser ERROR   Facebook Pixel function (fbq) is not available. Retrying...
+[00:00:22.841] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:22.841] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/dashboard","route":"/dashboard"}
+[00:00:22.841] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/dashboard color: rgb(120, 120, 120) color: inherit {"dp":"/dashboard","o":"http://localhost:3000/dashboard","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763335212607}
+[00:00:23.251] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:23.310] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:23.336] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:23.400] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:24.047] Browser LOG     Facebook Pixel script already loaded.
+[00:00:24.047] Browser ERROR   Facebook Pixel function (fbq) is not available. Retrying...
+[00:00:24.788] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:24.788] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/shop/tech-store/product/892d8d9b-f50e-4e2d-b4c3-634bc391abfd","route":"/shop/[slug]/product/[productId]"}
+[00:00:24.788] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/shop/tech-store/product/892d8d9b-f50e-4e2d-b4c3-634bc391abfd color: rgb(120, 120, 120) color: inherit {"dp":"/shop/[slug]/product/[productId]","o":"http://localhost:3000/shop/tech-store/product/892d8d9b-f50e-4e2d-b4c3-634bc391abfd","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763335214678}
+[00:00:24.794] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:24.794] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/shop/tech-store","route":"/shop/[slug]"}
+[00:00:24.794] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/shop/tech-store color: rgb(120, 120, 120) color: inherit {"dp":"/shop/[slug]","o":"http://localhost:3000/shop/tech-store","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763335214777}
+[00:00:24.794] Browser LOG     [Shop Page] Shop: Tech Store (ID: 550e8400-e29b-41d4-a716-446655440001, Slug: tech-store)
+[00:00:24.794] Browser LOG     [Shop Page] Using Pixel ID: 3647080795423665 for this shop
+[00:00:24.794] Browser LOG     Facebook Pixel script appended to the DOM.
+[00:00:24.794] Browser ERROR   Failed to load Facebook Pixel script. Retrying...
+[00:00:25.783] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:25.783] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/shop/tech-store","route":"/shop/[slug]"}
+[00:00:25.783] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/shop/tech-store color: rgb(120, 120, 120) color: inherit {"dp":"/shop/[slug]","o":"http://localhost:3000/shop/tech-store","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763335214859}
+[00:00:25.783] Browser LOG     [Shop Page] Shop: Tech Store (ID: 550e8400-e29b-41d4-a716-446655440001, Slug: tech-store)
+[00:00:25.783] Browser LOG     [Shop Page] Using Pixel ID: 3647080795423665 for this shop
+[00:00:25.783] Browser LOG     Facebook Pixel script appended to the DOM.
+[00:00:25.783] Browser ERROR   Failed to load Facebook Pixel script. Retrying...
+[00:00:25.784] Browser LOG     [Product Page] Shop: Tech Store (ID: 550e8400-e29b-41d4-a716-446655440001)
+[00:00:25.785] Browser LOG     [Product Page] Using Pixel ID: 3647080795423665 for this shop
+[00:00:25.785] Browser LOG     Facebook Pixel script appended to the DOM.
+[00:00:25.785] Browser ERROR   Failed to load Facebook Pixel script. Retrying...
+[00:00:25.813] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:25.813] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/shop/tech-store/product/892d8d9b-f50e-4e2d-b4c3-634bc391abfd","route":"/shop/[slug]/product/[productId]"}
+[00:00:25.813] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/shop/tech-store/product/892d8d9b-f50e-4e2d-b4c3-634bc391abfd color: rgb(120, 120, 120) color: inherit {"dp":"/shop/[slug]/product/[productId]","o":"http://localhost:3000/shop/tech-store/product/892d8d9b-f50e-4e2d-b4c3-634bc391abfd","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763335214677}
+[00:00:25.813] Browser LOG     [Product Page] Shop: Tech Store (ID: 550e8400-e29b-41d4-a716-446655440001)
+[00:00:25.813] Browser LOG     [Product Page] Using Pixel ID: 3647080795423665 for this shop
+[00:00:25.813] Browser LOG     Facebook Pixel script appended to the DOM.
+[00:00:25.813] Browser ERROR   Failed to load Facebook Pixel script. Retrying...
+[00:00:26.059] Browser ERROR   Failed to load Facebook Pixel script after multiple attempts.
+[00:00:26.059] Browser ERROR   Tracking is disabled because the script is blocked or inaccessible.
+[00:00:26.783] Browser LOG     [Product Page] Tracking ViewContent for product: ssf
+[00:00:26.783] Browser WARN    Facebook Pixel is not initialized. Event tracking skipped.
+[00:00:26.783] Browser LOG     [Product Page] Tracking ViewContent for product: ssf
+[00:00:26.784] Browser WARN    Facebook Pixel is not initialized. Event tracking skipped.
+[00:00:27.780] Browser LOG     Facebook Pixel script already loaded.
+[00:00:27.780] Browser ERROR   Facebook Pixel function (fbq) is not available. Retrying...
+[00:00:27.780] Browser LOG     Facebook Pixel script already loaded.
+[00:00:27.781] Browser ERROR   Facebook Pixel function (fbq) is not available. Retrying...
+[00:00:28.789] Browser LOG     Facebook Pixel script already loaded.
+[00:00:28.789] Browser ERROR   Facebook Pixel function (fbq) is not available. Retrying...
+[00:00:28.789] Browser LOG     Facebook Pixel script already loaded.
+[00:00:28.789] Browser ERROR   Facebook Pixel function (fbq) is not available. Retrying...
+[00:00:29.780] Browser LOG     Facebook Pixel script already loaded.
+[00:00:29.780] Browser ERROR   Facebook Pixel function (fbq) is not available. Retrying...
+[00:00:29.780] Browser LOG     Facebook Pixel script already loaded.
+[00:00:29.781] Browser ERROR   Facebook Pixel function (fbq) is not available. Retrying...
+[00:00:30.780] Browser LOG     Facebook Pixel script already loaded.
+[00:00:30.780] Browser ERROR   Facebook Pixel function (fbq) is not available. Retrying...
+[00:00:30.780] Browser LOG     Facebook Pixel script already loaded.
+[00:00:30.780] Browser ERROR   Facebook Pixel function (fbq) is not available. Retrying...
+[00:00:31.787] Browser LOG     Facebook Pixel script already loaded.
+[00:00:31.788] Browser ERROR   Facebook Pixel function (fbq) is not available. Retrying...
+[00:00:32.782] Browser LOG     Facebook Pixel script already loaded.
+[00:00:32.782] Browser ERROR   Facebook Pixel function (fbq) is not available. Retrying...
+[00:00:32.782] Browser LOG     Facebook Pixel script already loaded.
+[00:00:32.782] Browser ERROR   Facebook Pixel function (fbq) is not available. Retrying...
+[00:00:33.781] Browser LOG     Facebook Pixel script already loaded.
+[00:00:33.781] Browser ERROR   Facebook Pixel function (fbq) is not available. Retrying...
+[00:00:34.790] Browser ERROR   Failed to load Facebook Pixel script after multiple attempts.
+[00:00:34.790] Browser ERROR   Tracking is disabled because the script is blocked or inaccessible.
+[00:00:35.785] Browser ERROR   Failed to load Facebook Pixel script after multiple attempts.
+[00:00:35.785] Browser ERROR   Tracking is disabled because the script is blocked or inaccessible.
+[00:00:35.785] Browser ERROR   Failed to load Facebook Pixel script after multiple attempts.
+[00:00:35.785] Browser ERROR   Tracking is disabled because the script is blocked or inaccessible.
+[00:00:35.785] Browser ERROR   Failed to load Facebook Pixel script after multiple attempts.
+[00:00:35.785] Browser ERROR   Tracking is disabled because the script is blocked or inaccessible.
+[00:02:22.249] Server  LOG      ✓ Compiled in 226ms
+[00:02:42.555] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:43.055] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:02:43.056] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/shop/tech-store/product/b41220c0-504b-42ff-bbcc-2a9683aed129","route":"/shop/[slug]/product/[productId]"}
+[00:02:43.056] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/shop/tech-store/product/b41220c0-504b-42ff-bbcc-2a9683aed129 color: rgb(120, 120, 120) color: inherit {"dp":"/shop/[slug]/product/[productId]","o":"http://localhost:3000/shop/tech-store/product/b41220c0-504b-42ff-bbcc-2a9683aed129","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763335353317}
+[00:02:43.799] Browser LOG     [Product Page] Shop: Tech Store (ID: 550e8400-e29b-41d4-a716-446655440001)
+[00:02:43.799] Browser LOG     [Product Page] Using Pixel ID: 3647080795423665 for this shop
+[00:02:43.799] Browser LOG     Facebook Pixel script appended to the DOM.
+[00:02:43.799] Browser ERROR   Failed to load Facebook Pixel script. Retrying...
+[00:02:44.076] Browser LOG     [Product Page] Tracking ViewContent for product: svdvsvd
+[00:02:44.076] Browser WARN    Facebook Pixel is not initialized. Event tracking skipped.
+[00:02:45.806] Browser LOG     Facebook Pixel script already loaded.
+[00:02:45.806] Browser ERROR   Facebook Pixel function (fbq) is not available. Retrying...
+[00:02:48.570] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:48.871] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:02:48.871] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/shop/tech-store/product/b41220c0-504b-42ff-bbcc-2a9683aed129","route":"/shop/[slug]/product/[productId]"}
+[00:02:48.871] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/shop/tech-store/product/b41220c0-504b-42ff-bbcc-2a9683aed129 color: rgb(120, 120, 120) color: inherit {"dp":"/shop/[slug]/product/[productId]","o":"http://localhost:3000/shop/tech-store/product/b41220c0-504b-42ff-bbcc-2a9683aed129","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763335359178}
+[00:02:49.259] Browser LOG     [Product Page] Shop: Tech Store (ID: 550e8400-e29b-41d4-a716-446655440001)
+[00:02:49.259] Browser LOG     [Product Page] Using Pixel ID: 3647080795423665 for this shop
+[00:02:49.259] Browser LOG     Facebook Pixel script appended to the DOM.
+[00:02:49.568] Browser LOG     Facebook Pixel script loaded successfully.
+[00:02:49.568] Browser LOG     Facebook Pixel initialized with ID: 3647080795423665
+[00:02:49.568] Browser LOG     [Product Page] Tracking ViewContent for product: svdvsvd
+[00:02:49.568] Browser LOG     Tracking event: ViewContent {"content_ids":["b41220c0-504b-42ff-bbcc-2a9683aed129"],"content_name":"svdvsvd","content_type":"product","currency":"TND","value":200}
+[00:03:01.837] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/shop/tech-store color: rgb(120, 120, 120) color: inherit {"dp":"/shop/[slug]","o":"http://localhost:3000/shop/tech-store","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763335372153}
+[00:03:02.009] Browser LOG     [Shop Page] Shop: Tech Store (ID: 550e8400-e29b-41d4-a716-446655440001, Slug: tech-store)
+[00:03:02.009] Browser LOG     [Shop Page] Using Pixel ID: 3647080795423665 for this shop
+[00:03:02.009] Browser LOG     Facebook Pixel script already loaded.
+[00:03:02.009] Browser LOG     Facebook Pixel initialized with ID: 3647080795423665
+[00:03:02.118] Browser LOG     [Shop Page] Shop: Tech Store (ID: 550e8400-e29b-41d4-a716-446655440001, Slug: tech-store)
+[00:03:02.118] Browser LOG     [Shop Page] Using Pixel ID: 3647080795423665 for this shop
+[00:03:02.118] Browser LOG     Facebook Pixel script already loaded.
+[00:03:02.118] Browser LOG     Facebook Pixel initialized with ID: 3647080795423665
+[00:03:03.618] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/shop/tech-store/product/b24b52ba-3ebd-4dc7-8b4f-9e12e1f18cd3 color: rgb(120, 120, 120) color: inherit {"dp":"/shop/[slug]/product/[productId]","o":"http://localhost:3000/shop/tech-store/product/b24b52ba-3ebd-4dc7-8b4f-9e12e1f18cd3","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763335373934}
+[00:03:04.025] Browser LOG     [Product Page] Shop: Tech Store (ID: 550e8400-e29b-41d4-a716-446655440001)
+[00:03:04.025] Browser LOG     [Product Page] Using Pixel ID: 3647080795423665 for this shop
+[00:03:04.025] Browser LOG     Facebook Pixel script already loaded.
+[00:03:04.025] Browser LOG     Facebook Pixel initialized with ID: 3647080795423665
+[00:03:04.025] Browser LOG     [Product Page] Shop: Tech Store (ID: 550e8400-e29b-41d4-a716-446655440001)
+[00:03:04.025] Browser LOG     [Product Page] Using Pixel ID: 3647080795423665 for this shop
+[00:03:04.026] Browser LOG     Facebook Pixel script already loaded.
+[00:03:04.026] Browser LOG     Facebook Pixel initialized with ID: 3647080795423665
+[00:03:04.326] Browser LOG     [Product Page] Tracking ViewContent for product: youu
+[00:03:04.326] Browser LOG     Tracking event: ViewContent {"content_ids":["b24b52ba-3ebd-4dc7-8b4f-9e12e1f18cd3"],"content_name":"youu","content_type":"product","currency":"TND","value":50000}
+[00:03:04.326] Browser LOG     [Product Page] Tracking ViewContent for product: youu
+[00:03:04.326] Browser LOG     Tracking event: ViewContent {"content_ids":["b24b52ba-3ebd-4dc7-8b4f-9e12e1f18cd3"],"content_name":"youu","content_type":"product","currency":"TND","value":50000}
+[00:06:42.798] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:06:43.312] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:06:43.312] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/shop/tech-store/product/892d8d9b-f50e-4e2d-b4c3-634bc391abfd","route":"/shop/[slug]/product/[productId]"}
+[00:06:43.312] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/shop/tech-store/product/892d8d9b-f50e-4e2d-b4c3-634bc391abfd color: rgb(120, 120, 120) color: inherit {"dp":"/shop/[slug]/product/[productId]","o":"http://localhost:3000/shop/tech-store/product/892d8d9b-f50e-4e2d-b4c3-634bc391abfd","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763335593628}
+[00:06:43.861] Browser LOG     [Product Page] Shop: Tech Store (ID: 550e8400-e29b-41d4-a716-446655440001)
+[00:06:43.861] Browser LOG     [Product Page] Using Pixel ID: 3647080795423665 for this shop
+[00:06:43.861] Browser LOG     Facebook Pixel script appended to the DOM.
+[00:06:43.861] Browser LOG     Facebook Pixel script loaded successfully.
+[00:06:43.861] Browser LOG     Facebook Pixel initialized with ID: 3647080795423665
+[00:06:44.127] Browser LOG     [Product Page] Tracking ViewContent for product: ssf
+[00:06:44.127] Browser LOG     Tracking event: ViewContent {"content_ids":["892d8d9b-f50e-4e2d-b4c3-634bc391abfd"],"content_name":"ssf","content_type":"product","currency":"TND","value":500}
+[00:07:33.962] Server  LOG      ✓ Compiled in 255ms
+[00:08:15.272] Browser WARN    Image with src "https://vhfvfcnmhjvkrewvqqza.supabase.co/storage/v1/object/public/product-images/550e8400-e29b-41d4-a716-446655440001/892d8d9b-f50e-4e2d-b4c3-634bc391abfd/ba5d0e67-cd86-4a63-b75b-1f03f90cb2be.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:08:16.908] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/shop/tech-store/product/b41220c0-504b-42ff-bbcc-2a9683aed129 color: rgb(120, 120, 120) color: inherit {"dp":"/shop/[slug]/product/[productId]","o":"http://localhost:3000/shop/tech-store/product/b41220c0-504b-42ff-bbcc-2a9683aed129","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763335687224}
+[00:08:17.518] Browser LOG     [Product Page] Shop: Tech Store (ID: 550e8400-e29b-41d4-a716-446655440001)
+[00:08:17.518] Browser LOG     [Product Page] Using Pixel ID: 3647080795423665 for this shop
+[00:08:17.518] Browser LOG     Facebook Pixel script already loaded.
+[00:08:17.518] Browser ERROR   Facebook Pixel function (fbq) is not available. Retrying...
+[00:08:17.518] Browser LOG     [Product Page] Shop: Tech Store (ID: 550e8400-e29b-41d4-a716-446655440001)
+[00:08:17.518] Browser LOG     [Product Page] Using Pixel ID: 3647080795423665 for this shop
+[00:08:17.518] Browser LOG     Facebook Pixel script already loaded.
+[00:08:17.518] Browser ERROR   Facebook Pixel function (fbq) is not available. Retrying...
+[00:08:17.818] Browser WARN    [Product Page] Facebook Pixel is not initialized. Retrying...
+[00:08:17.818] Browser WARN    [Product Page] Facebook Pixel is not initialized. Retrying...
+[00:08:18.322] Browser WARN    [Product Page] Facebook Pixel is not initialized. Retrying...
+[00:08:18.322] Browser WARN    [Product Page] Facebook Pixel is not initialized. Retrying...
+[00:08:18.830] Browser WARN    [Product Page] Facebook Pixel is not initialized. Retrying...
+[00:08:18.830] Browser WARN    [Product Page] Facebook Pixel is not initialized. Retrying...
+[00:08:19.517] Browser WARN    [Product Page] Facebook Pixel is not initialized. Retrying...
+[00:08:19.517] Browser WARN    [Product Page] Facebook Pixel is not initialized. Retrying...
+[00:08:19.517] Browser LOG     Facebook Pixel script already loaded.
+[00:08:19.517] Browser ERROR   Facebook Pixel function (fbq) is not available. Retrying...
+[00:08:19.517] Browser LOG     Facebook Pixel script already loaded.
+[00:08:19.517] Browser ERROR   Facebook Pixel function (fbq) is not available. Retrying...
+[00:08:19.822] Browser WARN    [Product Page] Facebook Pixel is not initialized. Retrying...
+[00:08:19.822] Browser WARN    [Product Page] Facebook Pixel is not initialized. Retrying...
+[00:08:20.344] Browser WARN    [Product Page] Facebook Pixel is not initialized. Retrying...
+[00:08:20.344] Browser WARN    [Product Page] Facebook Pixel is not initialized. Retrying...
+[00:08:20.811] Browser WARN    [Product Page] Facebook Pixel is not initialized. Retrying...
+[00:08:20.811] Browser WARN    [Product Page] Facebook Pixel is not initialized. Retrying...
+[00:08:21.325] Browser WARN    [Product Page] Facebook Pixel is not initialized. Retrying...
+[00:08:24.480] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:08:24.922] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:08:24.922] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/shop/tech-store/product/b41220c0-504b-42ff-bbcc-2a9683aed129","route":"/shop/[slug]/product/[productId]"}
+[00:08:24.922] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/shop/tech-store/product/b41220c0-504b-42ff-bbcc-2a9683aed129 color: rgb(120, 120, 120) color: inherit {"dp":"/shop/[slug]/product/[productId]","o":"http://localhost:3000/shop/tech-store/product/b41220c0-504b-42ff-bbcc-2a9683aed129","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763335695170}
+[00:08:25.249] Browser LOG     [Product Page] Shop: Tech Store (ID: 550e8400-e29b-41d4-a716-446655440001)
+[00:08:25.249] Browser LOG     [Product Page] Using Pixel ID: 3647080795423665 for this shop
+[00:08:25.249] Browser LOG     Facebook Pixel script appended to the DOM.
+[00:08:25.249] Browser LOG     Facebook Pixel script loaded successfully.
+[00:08:25.249] Browser LOG     Facebook Pixel initialized with ID: 3647080795423665
+[00:08:25.535] Browser LOG     [Product Page] Tracking ViewContent for product: svdvsvd
+[00:08:25.535] Browser LOG     Tracking event: ViewContent {"content_ids":["b41220c0-504b-42ff-bbcc-2a9683aed129"],"content_name":"svdvsvd","content_type":"product","currency":"TND","value":200}
+[00:10:49.230] Server  LOG      ✓ Compiled in 176ms
+[00:10:56.255] Server  LOG      ✓ Compiled in 138ms
+[00:11:20.071] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:11:20.476] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:11:20.476] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/shop/tech-store/product/b41220c0-504b-42ff-bbcc-2a9683aed129","route":"/shop/[slug]/product/[productId]"}
+[00:11:20.476] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/shop/tech-store/product/b41220c0-504b-42ff-bbcc-2a9683aed129 color: rgb(120, 120, 120) color: inherit {"dp":"/shop/[slug]/product/[productId]","o":"http://localhost:3000/shop/tech-store/product/b41220c0-504b-42ff-bbcc-2a9683aed129","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763335870689}
+[00:11:20.970] Browser LOG     [Product Page] Shop: Tech Store (ID: 550e8400-e29b-41d4-a716-446655440001)
+[00:11:20.970] Browser LOG     [Product Page] Using Pixel ID: 3647080795423665 for this shop
+[00:11:20.970] Browser LOG     Facebook Pixel script loaded successfully.
+[00:11:20.970] Browser LOG     Facebook Pixel initialized with ID: 3647080795423665
+[00:11:21.250] Browser LOG     [Product Page] Tracking ViewContent for product: svdvsvd
+[00:11:21.250] Browser LOG     Tracking event: ViewContent {"content_ids":["b41220c0-504b-42ff-bbcc-2a9683aed129"],"content_name":"svdvsvd","content_type":"product","currency":"TND","value":200}
+[00:11:34.080] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/shop/tech-store color: rgb(120, 120, 120) color: inherit {"dp":"/shop/[slug]","o":"http://localhost:3000/shop/tech-store","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763335884392}
+[00:11:34.340] Browser LOG     [Shop Page] Shop: Tech Store (ID: 550e8400-e29b-41d4-a716-446655440001, Slug: tech-store)
+[00:11:34.340] Browser LOG     [Shop Page] Using Pixel ID: 3647080795423665 for this shop
+[00:11:34.340] Browser LOG     Facebook Pixel script already loaded.
+[00:11:34.340] Browser LOG     Facebook Pixel initialized with ID: 3647080795423665
+[00:11:34.340] Browser LOG     [Shop Page] Shop: Tech Store (ID: 550e8400-e29b-41d4-a716-446655440001, Slug: tech-store)
+[00:11:34.340] Browser LOG     [Shop Page] Using Pixel ID: 3647080795423665 for this shop
+[00:11:34.340] Browser LOG     Facebook Pixel script already loaded.
+[00:11:34.340] Browser LOG     Facebook Pixel initialized with ID: 3647080795423665
+[00:11:35.545] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/shop/tech-store/product/b24b52ba-3ebd-4dc7-8b4f-9e12e1f18cd3 color: rgb(120, 120, 120) color: inherit {"dp":"/shop/[slug]/product/[productId]","o":"http://localhost:3000/shop/tech-store/product/b24b52ba-3ebd-4dc7-8b4f-9e12e1f18cd3","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763335885857}
+[00:11:35.963] Browser LOG     [Product Page] Shop: Tech Store (ID: 550e8400-e29b-41d4-a716-446655440001)
+[00:11:35.963] Browser LOG     [Product Page] Using Pixel ID: 3647080795423665 for this shop
+[00:11:35.963] Browser LOG     Facebook Pixel script already loaded.
+[00:11:35.963] Browser LOG     Facebook Pixel initialized with ID: 3647080795423665
+[00:11:35.963] Browser LOG     [Product Page] Shop: Tech Store (ID: 550e8400-e29b-41d4-a716-446655440001)
+[00:11:35.963] Browser LOG     [Product Page] Using Pixel ID: 3647080795423665 for this shop
+[00:11:35.963] Browser LOG     Facebook Pixel script already loaded.
+[00:11:35.963] Browser LOG     Facebook Pixel initialized with ID: 3647080795423665
+[00:11:36.272] Browser LOG     [Product Page] Tracking ViewContent for product: youu
+[00:11:36.272] Browser LOG     Tracking event: ViewContent {"content_ids":["b24b52ba-3ebd-4dc7-8b4f-9e12e1f18cd3"],"content_name":"youu","content_type":"product","currency":"TND","value":50000}
+[00:11:36.272] Browser LOG     [Product Page] Tracking ViewContent for product: youu
+[00:11:36.272] Browser LOG     Tracking event: ViewContent {"content_ids":["b24b52ba-3ebd-4dc7-8b4f-9e12e1f18cd3"],"content_name":"youu","content_type":"product","currency":"TND","value":50000}
+[00:11:37.762] Browser LOG     Tracking event: AddToCart {"content_ids":["b24b52ba-3ebd-4dc7-8b4f-9e12e1f18cd3"],"content_name":"youu","content_type":"product","currency":"TND","value":50000}
+[00:11:39.331] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:11:39.671] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:11:39.671] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/shop/tech-store/product/b24b52ba-3ebd-4dc7-8b4f-9e12e1f18cd3/checkout","route":"/shop/[slug]/product/[productId]/checkout"}
+[00:11:39.671] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/shop/tech-store/product/b24b52ba-3ebd-4dc7-8b4f-9e12e1f18cd3/checkout color: rgb(120, 120, 120) color: inherit {"dp":"/shop/[slug]/product/[productId]/checkout","o":"http://localhost:3000/shop/tech-store/product/b24b52ba-3ebd-4dc7-8b4f-9e12e1f18cd3/checkout","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763335889982}
+[00:11:39.846] Browser LOG     Facebook Pixel script loaded successfully.
+[00:11:39.846] Browser LOG     Facebook Pixel initialized with ID: 3647080795423665
+[00:11:39.999] Browser WARN    Image with src "https://vhfvfcnmhjvkrewvqqza.supabase.co/storage/v1/object/public/product-images/550e8400-e29b-41d4-a716-446655440001/85447cf1-d1f2-42c1-83db-2258484fcdc5.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:11:44.150] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:11:44.521] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:11:44.521] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/shop/tech-store","route":"/shop/[slug]"}
+[00:11:44.521] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/shop/tech-store color: rgb(120, 120, 120) color: inherit {"dp":"/shop/[slug]","o":"http://localhost:3000/shop/tech-store","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763335894690}
+[00:11:44.766] Browser LOG     [Product Page] Shop: Tech Store (ID: 550e8400-e29b-41d4-a716-446655440001)
+[00:11:44.766] Browser LOG     [Product Page] Using Pixel ID: 3647080795423665 for this shop
+[00:11:44.766] Browser LOG     Facebook Pixel script loaded successfully.
+[00:11:44.766] Browser LOG     Facebook Pixel initialized with ID: 3647080795423665
+[00:11:45.074] Browser LOG     [Product Page] Tracking ViewContent for product: youu
+[00:11:45.074] Browser LOG     Tracking event: ViewContent {"content_ids":["b24b52ba-3ebd-4dc7-8b4f-9e12e1f18cd3"],"content_name":"youu","content_type":"product","currency":"TND","value":50000}
+[00:12:25.251] Server  LOG      ✓ Compiled in 124ms
+[00:12:25.401] Browser ERROR   ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx:8:1
+Export initPixel doesn't exist in target module
+   6 | import Image from "next/image";
+   7 | import { createClient } from "@/lib/supabase/client";
+>  8 | import { initPixel, track } from "@/lib/fbpixel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | interface Product {
+  11 |   id: string;
+
+The export initPixel was not found in module [project]/Downloads/code (1)/lib/fbpixel.ts [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx [Client Component Browser]
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx [Client Component SSR]
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx [Server Component]
+[00:12:25.401] Browser ERROR   ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx:8:1
+Export initPixel doesn't exist in target module
+   6 | import Image from "next/image";
+   7 | import { createClient } from "@/lib/supabase/client";
+>  8 | import { initPixel, track } from "@/lib/fbpixel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | interface Product {
+  11 |   id: string;
+
+The export initPixel was not found in module [project]/Downloads/code (1)/lib/fbpixel.ts [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx [Client Component Browser]
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx [Client Component SSR]
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx [Server Component]
+[00:12:25.401] Browser ERROR   ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx:8:1
+Export track doesn't exist in target module
+   6 | import Image from "next/image";
+   7 | import { createClient } from "@/lib/supabase/client";
+>  8 | import { initPixel, track } from "@/lib/fbpixel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | interface Product {
+  11 |   id: string;
+
+The export track was not found in module [project]/Downloads/code (1)/lib/fbpixel.ts [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx [Client Component Browser]
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx [Client Component SSR]
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx [Server Component]
+[00:12:25.401] Browser ERROR   ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx:8:1
+Export track doesn't exist in target module
+   6 | import Image from "next/image";
+   7 | import { createClient } from "@/lib/supabase/client";
+>  8 | import { initPixel, track } from "@/lib/fbpixel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | interface Product {
+  11 |   id: string;
+
+The export track was not found in module [project]/Downloads/code (1)/lib/fbpixel.ts [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx [Client Component Browser]
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx [Client Component SSR]
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx [Server Component]
+[00:12:25.401] Browser ERROR   ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx:11:1
+Export initPixel doesn't exist in target module
+   9 | import { Label } from "@/components/ui/label";
+  10 | import { Input } from "@/components/ui/input";
+> 11 | import { initPixel, track } from "@/lib/fbpixel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 | interface Product {
+  14 |   id: string;
+
+The export initPixel was not found in module [project]/Downloads/code (1)/lib/fbpixel.ts [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx [Client Component Browser]
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx [Client Component SSR]
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx [Server Component]
+[00:12:25.401] Browser ERROR   ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx:11:1
+Export initPixel doesn't exist in target module
+   9 | import { Label } from "@/components/ui/label";
+  10 | import { Input } from "@/components/ui/input";
+> 11 | import { initPixel, track } from "@/lib/fbpixel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 | interface Product {
+  14 |   id: string;
+
+The export initPixel was not found in module [project]/Downloads/code (1)/lib/fbpixel.ts [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx [Client Component Browser]
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx [Client Component SSR]
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx [Server Component]
+[00:12:25.401] Browser ERROR   ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx:11:1
+Export track doesn't exist in target module
+   9 | import { Label } from "@/components/ui/label";
+  10 | import { Input } from "@/components/ui/input";
+> 11 | import { initPixel, track } from "@/lib/fbpixel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 | interface Product {
+  14 |   id: string;
+
+The export track was not found in module [project]/Downloads/code (1)/lib/fbpixel.ts [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx [Client Component Browser]
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx [Client Component SSR]
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx [Server Component]
+[00:12:25.401] Browser ERROR   ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx:11:1
+Export track doesn't exist in target module
+   9 | import { Label } from "@/components/ui/label";
+  10 | import { Input } from "@/components/ui/input";
+> 11 | import { initPixel, track } from "@/lib/fbpixel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 | interface Product {
+  14 |   id: string;
+
+The export track was not found in module [project]/Downloads/code (1)/lib/fbpixel.ts [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx [Client Component Browser]
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx [Client Component SSR]
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx [Server Component]
+[00:12:25.401] Browser ERROR   ./Downloads/code (1)/app/shop/[slug]/page.tsx:8:1
+Export initPixel doesn't exist in target module
+   6 | import Image from "next/image";
+   7 | import { createClient } from "@/lib/supabase/client";
+>  8 | import { initPixel } from "@/lib/fbpixel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | interface Shop {
+  11 |   id: string;
+
+The export initPixel was not found in module [project]/Downloads/code (1)/lib/fbpixel.ts [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/code (1)/app/shop/[slug]/page.tsx [Client Component Browser]
+    ./Downloads/code (1)/app/shop/[slug]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/code (1)/app/shop/[slug]/page.tsx [Client Component SSR]
+    ./Downloads/code (1)/app/shop/[slug]/page.tsx [Server Component]
+[00:12:25.401] Browser ERROR   ./Downloads/code (1)/app/shop/[slug]/page.tsx:8:1
+Export initPixel doesn't exist in target module
+   6 | import Image from "next/image";
+   7 | import { createClient } from "@/lib/supabase/client";
+>  8 | import { initPixel } from "@/lib/fbpixel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | interface Shop {
+  11 |   id: string;
+
+The export initPixel was not found in module [project]/Downloads/code (1)/lib/fbpixel.ts [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/code (1)/app/shop/[slug]/page.tsx [Client Component Browser]
+    ./Downloads/code (1)/app/shop/[slug]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/code (1)/app/shop/[slug]/page.tsx [Client Component SSR]
+    ./Downloads/code (1)/app/shop/[slug]/page.tsx [Server Component]
+[00:12:25.777] Browser ERROR   ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx:8:1
+Export initPixel doesn't exist in target module
+   6 | import Image from "next/image";
+   7 | import { createClient } from "@/lib/supabase/client";
+>  8 | import { initPixel, track } from "@/lib/fbpixel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | interface Product {
+  11 |   id: string;
+
+The export initPixel was not found in module [project]/Downloads/code (1)/lib/fbpixel.ts [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx [Client Component Browser]
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx [Client Component SSR]
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx [Server Component]
+[00:12:25.777] Browser ERROR   ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx:8:1
+Export initPixel doesn't exist in target module
+   6 | import Image from "next/image";
+   7 | import { createClient } from "@/lib/supabase/client";
+>  8 | import { initPixel, track } from "@/lib/fbpixel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | interface Product {
+  11 |   id: string;
+
+The export initPixel was not found in module [project]/Downloads/code (1)/lib/fbpixel.ts [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx [Client Component Browser]
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx [Client Component SSR]
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx [Server Component]
+[00:12:25.778] Browser ERROR   ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx:8:1
+Export track doesn't exist in target module
+   6 | import Image from "next/image";
+   7 | import { createClient } from "@/lib/supabase/client";
+>  8 | import { initPixel, track } from "@/lib/fbpixel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | interface Product {
+  11 |   id: string;
+
+The export track was not found in module [project]/Downloads/code (1)/lib/fbpixel.ts [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx [Client Component Browser]
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx [Client Component SSR]
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx [Server Component]
+[00:12:25.778] Browser ERROR   ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx:8:1
+Export track doesn't exist in target module
+   6 | import Image from "next/image";
+   7 | import { createClient } from "@/lib/supabase/client";
+>  8 | import { initPixel, track } from "@/lib/fbpixel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | interface Product {
+  11 |   id: string;
+
+The export track was not found in module [project]/Downloads/code (1)/lib/fbpixel.ts [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx [Client Component Browser]
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx [Client Component SSR]
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx [Server Component]
+[00:12:25.778] Browser ERROR   ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx:11:1
+Export initPixel doesn't exist in target module
+   9 | import { Label } from "@/components/ui/label";
+  10 | import { Input } from "@/components/ui/input";
+> 11 | import { initPixel, track } from "@/lib/fbpixel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 | interface Product {
+  14 |   id: string;
+
+The export initPixel was not found in module [project]/Downloads/code (1)/lib/fbpixel.ts [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx [Client Component Browser]
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx [Client Component SSR]
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx [Server Component]
+[00:12:25.778] Browser ERROR   ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx:11:1
+Export initPixel doesn't exist in target module
+   9 | import { Label } from "@/components/ui/label";
+  10 | import { Input } from "@/components/ui/input";
+> 11 | import { initPixel, track } from "@/lib/fbpixel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 | interface Product {
+  14 |   id: string;
+
+The export initPixel was not found in module [project]/Downloads/code (1)/lib/fbpixel.ts [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx [Client Component Browser]
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx [Client Component SSR]
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx [Server Component]
+[00:12:25.778] Browser ERROR   ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx:11:1
+Export track doesn't exist in target module
+   9 | import { Label } from "@/components/ui/label";
+  10 | import { Input } from "@/components/ui/input";
+> 11 | import { initPixel, track } from "@/lib/fbpixel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 | interface Product {
+  14 |   id: string;
+
+The export track was not found in module [project]/Downloads/code (1)/lib/fbpixel.ts [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx [Client Component Browser]
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx [Client Component SSR]
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx [Server Component]
+[00:12:25.778] Browser ERROR   ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx:11:1
+Export track doesn't exist in target module
+   9 | import { Label } from "@/components/ui/label";
+  10 | import { Input } from "@/components/ui/input";
+> 11 | import { initPixel, track } from "@/lib/fbpixel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 | interface Product {
+  14 |   id: string;
+
+The export track was not found in module [project]/Downloads/code (1)/lib/fbpixel.ts [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx [Client Component Browser]
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx [Client Component SSR]
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx [Server Component]
+[00:12:25.778] Browser ERROR   ./Downloads/code (1)/app/shop/[slug]/page.tsx:8:1
+Export initPixel doesn't exist in target module
+   6 | import Image from "next/image";
+   7 | import { createClient } from "@/lib/supabase/client";
+>  8 | import { initPixel } from "@/lib/fbpixel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | interface Shop {
+  11 |   id: string;
+
+The export initPixel was not found in module [project]/Downloads/code (1)/lib/fbpixel.ts [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/code (1)/app/shop/[slug]/page.tsx [Client Component Browser]
+    ./Downloads/code (1)/app/shop/[slug]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/code (1)/app/shop/[slug]/page.tsx [Client Component SSR]
+    ./Downloads/code (1)/app/shop/[slug]/page.tsx [Server Component]
+[00:12:25.778] Browser ERROR   ./Downloads/code (1)/app/shop/[slug]/page.tsx:8:1
+Export initPixel doesn't exist in target module
+   6 | import Image from "next/image";
+   7 | import { createClient } from "@/lib/supabase/client";
+>  8 | import { initPixel } from "@/lib/fbpixel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | interface Shop {
+  11 |   id: string;
+
+The export initPixel was not found in module [project]/Downloads/code (1)/lib/fbpixel.ts [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/code (1)/app/shop/[slug]/page.tsx [Client Component Browser]
+    ./Downloads/code (1)/app/shop/[slug]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/code (1)/app/shop/[slug]/page.tsx [Client Component SSR]
+    ./Downloads/code (1)/app/shop/[slug]/page.tsx [Server Component]
+[00:12:25.778] Browser ERROR   ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx:8:1
+Export initPixel doesn't exist in target module
+   6 | import Image from "next/image";
+   7 | import { createClient } from "@/lib/supabase/client";
+>  8 | import { initPixel, track } from "@/lib/fbpixel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | interface Product {
+  11 |   id: string;
+
+The export initPixel was not found in module [project]/Downloads/code (1)/lib/fbpixel.ts [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx [Client Component Browser]
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx [Client Component SSR]
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx [Server Component]
+[00:12:25.778] Browser ERROR   ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx:8:1
+Export initPixel doesn't exist in target module
+   6 | import Image from "next/image";
+   7 | import { createClient } from "@/lib/supabase/client";
+>  8 | import { initPixel, track } from "@/lib/fbpixel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | interface Product {
+  11 |   id: string;
+
+The export initPixel was not found in module [project]/Downloads/code (1)/lib/fbpixel.ts [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx [Client Component Browser]
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx [Client Component SSR]
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx [Server Component]
+[00:12:25.778] Browser ERROR   ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx:8:1
+Export track doesn't exist in target module
+   6 | import Image from "next/image";
+   7 | import { createClient } from "@/lib/supabase/client";
+>  8 | import { initPixel, track } from "@/lib/fbpixel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | interface Product {
+  11 |   id: string;
+
+The export track was not found in module [project]/Downloads/code (1)/lib/fbpixel.ts [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx [Client Component Browser]
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx [Client Component SSR]
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx [Server Component]
+[00:12:25.778] Browser ERROR   ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx:8:1
+Export track doesn't exist in target module
+   6 | import Image from "next/image";
+   7 | import { createClient } from "@/lib/supabase/client";
+>  8 | import { initPixel, track } from "@/lib/fbpixel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | interface Product {
+  11 |   id: string;
+
+The export track was not found in module [project]/Downloads/code (1)/lib/fbpixel.ts [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx [Client Component Browser]
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx [Client Component SSR]
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx [Server Component]
+[00:12:25.778] Browser ERROR   ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx:11:1
+Export initPixel doesn't exist in target module
+   9 | import { Label } from "@/components/ui/label";
+  10 | import { Input } from "@/components/ui/input";
+> 11 | import { initPixel, track } from "@/lib/fbpixel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 | interface Product {
+  14 |   id: string;
+
+The export initPixel was not found in module [project]/Downloads/code (1)/lib/fbpixel.ts [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx [Client Component Browser]
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx [Client Component SSR]
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx [Server Component]
+[00:12:25.778] Browser ERROR   ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx:11:1
+Export initPixel doesn't exist in target module
+   9 | import { Label } from "@/components/ui/label";
+  10 | import { Input } from "@/components/ui/input";
+> 11 | import { initPixel, track } from "@/lib/fbpixel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 | interface Product {
+  14 |   id: string;
+
+The export initPixel was not found in module [project]/Downloads/code (1)/lib/fbpixel.ts [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx [Client Component Browser]
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx [Client Component SSR]
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx [Server Component]
+[00:12:25.778] Browser ERROR   ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx:11:1
+Export track doesn't exist in target module
+   9 | import { Label } from "@/components/ui/label";
+  10 | import { Input } from "@/components/ui/input";
+> 11 | import { initPixel, track } from "@/lib/fbpixel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 | interface Product {
+  14 |   id: string;
+
+The export track was not found in module [project]/Downloads/code (1)/lib/fbpixel.ts [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx [Client Component Browser]
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx [Client Component SSR]
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx [Server Component]
+[00:12:25.778] Browser ERROR   ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx:11:1
+Export track doesn't exist in target module
+   9 | import { Label } from "@/components/ui/label";
+  10 | import { Input } from "@/components/ui/input";
+> 11 | import { initPixel, track } from "@/lib/fbpixel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 | interface Product {
+  14 |   id: string;
+
+The export track was not found in module [project]/Downloads/code (1)/lib/fbpixel.ts [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx [Client Component Browser]
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx [Client Component SSR]
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx [Server Component]
+[00:12:25.778] Browser ERROR   ./Downloads/code (1)/app/shop/[slug]/page.tsx:8:1
+Export initPixel doesn't exist in target module
+   6 | import Image from "next/image";
+   7 | import { createClient } from "@/lib/supabase/client";
+>  8 | import { initPixel } from "@/lib/fbpixel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | interface Shop {
+  11 |   id: string;
+
+The export initPixel was not found in module [project]/Downloads/code (1)/lib/fbpixel.ts [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/code (1)/app/shop/[slug]/page.tsx [Client Component Browser]
+    ./Downloads/code (1)/app/shop/[slug]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/code (1)/app/shop/[slug]/page.tsx [Client Component SSR]
+    ./Downloads/code (1)/app/shop/[slug]/page.tsx [Server Component]
+[00:12:25.778] Browser ERROR   ./Downloads/code (1)/app/shop/[slug]/page.tsx:8:1
+Export initPixel doesn't exist in target module
+   6 | import Image from "next/image";
+   7 | import { createClient } from "@/lib/supabase/client";
+>  8 | import { initPixel } from "@/lib/fbpixel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | interface Shop {
+  11 |   id: string;
+
+The export initPixel was not found in module [project]/Downloads/code (1)/lib/fbpixel.ts [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/code (1)/app/shop/[slug]/page.tsx [Client Component Browser]
+    ./Downloads/code (1)/app/shop/[slug]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/code (1)/app/shop/[slug]/page.tsx [Client Component SSR]
+    ./Downloads/code (1)/app/shop/[slug]/page.tsx [Server Component]
+[00:12:25.778] Browser ERROR   ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx:8:1
+Export initPixel doesn't exist in target module
+   6 | import Image from "next/image";
+   7 | import { createClient } from "@/lib/supabase/client";
+>  8 | import { initPixel, track } from "@/lib/fbpixel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | interface Product {
+  11 |   id: string;
+
+The export initPixel was not found in module [project]/Downloads/code (1)/lib/fbpixel.ts [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx [Client Component Browser]
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx [Client Component SSR]
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx [Server Component]
+[00:12:25.778] Browser ERROR   ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx:8:1
+Export initPixel doesn't exist in target module
+   6 | import Image from "next/image";
+   7 | import { createClient } from "@/lib/supabase/client";
+>  8 | import { initPixel, track } from "@/lib/fbpixel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | interface Product {
+  11 |   id: string;
+
+The export initPixel was not found in module [project]/Downloads/code (1)/lib/fbpixel.ts [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx [Client Component Browser]
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx [Client Component SSR]
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx [Server Component]
+[00:12:25.778] Browser ERROR   ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx:8:1
+Export track doesn't exist in target module
+   6 | import Image from "next/image";
+   7 | import { createClient } from "@/lib/supabase/client";
+>  8 | import { initPixel, track } from "@/lib/fbpixel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | interface Product {
+  11 |   id: string;
+
+The export track was not found in module [project]/Downloads/code (1)/lib/fbpixel.ts [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx [Client Component Browser]
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx [Client Component SSR]
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx [Server Component]
+[00:12:25.778] Browser ERROR   ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx:8:1
+Export track doesn't exist in target module
+   6 | import Image from "next/image";
+   7 | import { createClient } from "@/lib/supabase/client";
+>  8 | import { initPixel, track } from "@/lib/fbpixel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | interface Product {
+  11 |   id: string;
+
+The export track was not found in module [project]/Downloads/code (1)/lib/fbpixel.ts [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx [Client Component Browser]
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx [Client Component SSR]
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx [Server Component]
+[00:12:25.779] Browser ERROR   ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx:11:1
+Export initPixel doesn't exist in target module
+   9 | import { Label } from "@/components/ui/label";
+  10 | import { Input } from "@/components/ui/input";
+> 11 | import { initPixel, track } from "@/lib/fbpixel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 | interface Product {
+  14 |   id: string;
+
+The export initPixel was not found in module [project]/Downloads/code (1)/lib/fbpixel.ts [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx [Client Component Browser]
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx [Client Component SSR]
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx [Server Component]
+[00:12:25.779] Browser ERROR   ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx:11:1
+Export initPixel doesn't exist in target module
+   9 | import { Label } from "@/components/ui/label";
+  10 | import { Input } from "@/components/ui/input";
+> 11 | import { initPixel, track } from "@/lib/fbpixel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 | interface Product {
+  14 |   id: string;
+
+The export initPixel was not found in module [project]/Downloads/code (1)/lib/fbpixel.ts [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx [Client Component Browser]
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx [Client Component SSR]
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx [Server Component]
+[00:12:25.779] Browser ERROR   ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx:11:1
+Export track doesn't exist in target module
+   9 | import { Label } from "@/components/ui/label";
+  10 | import { Input } from "@/components/ui/input";
+> 11 | import { initPixel, track } from "@/lib/fbpixel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 | interface Product {
+  14 |   id: string;
+
+The export track was not found in module [project]/Downloads/code (1)/lib/fbpixel.ts [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx [Client Component Browser]
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx [Client Component SSR]
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx [Server Component]
+[00:12:25.779] Browser ERROR   ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx:11:1
+Export track doesn't exist in target module
+   9 | import { Label } from "@/components/ui/label";
+  10 | import { Input } from "@/components/ui/input";
+> 11 | import { initPixel, track } from "@/lib/fbpixel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 | interface Product {
+  14 |   id: string;
+
+The export track was not found in module [project]/Downloads/code (1)/lib/fbpixel.ts [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx [Client Component Browser]
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx [Client Component SSR]
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx [Server Component]
+[00:12:25.779] Browser ERROR   ./Downloads/code (1)/app/shop/[slug]/page.tsx:8:1
+Export initPixel doesn't exist in target module
+   6 | import Image from "next/image";
+   7 | import { createClient } from "@/lib/supabase/client";
+>  8 | import { initPixel } from "@/lib/fbpixel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | interface Shop {
+  11 |   id: string;
+
+The export initPixel was not found in module [project]/Downloads/code (1)/lib/fbpixel.ts [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/code (1)/app/shop/[slug]/page.tsx [Client Component Browser]
+    ./Downloads/code (1)/app/shop/[slug]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/code (1)/app/shop/[slug]/page.tsx [Client Component SSR]
+    ./Downloads/code (1)/app/shop/[slug]/page.tsx [Server Component]
+[00:12:25.779] Browser ERROR   ./Downloads/code (1)/app/shop/[slug]/page.tsx:8:1
+Export initPixel doesn't exist in target module
+   6 | import Image from "next/image";
+   7 | import { createClient } from "@/lib/supabase/client";
+>  8 | import { initPixel } from "@/lib/fbpixel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | interface Shop {
+  11 |   id: string;
+
+The export initPixel was not found in module [project]/Downloads/code (1)/lib/fbpixel.ts [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/code (1)/app/shop/[slug]/page.tsx [Client Component Browser]
+    ./Downloads/code (1)/app/shop/[slug]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/code (1)/app/shop/[slug]/page.tsx [Client Component SSR]
+    ./Downloads/code (1)/app/shop/[slug]/page.tsx [Server Component]
+[00:12:25.779] Browser ERROR   ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx:8:1
+Export initPixel doesn't exist in target module
+   6 | import Image from "next/image";
+   7 | import { createClient } from "@/lib/supabase/client";
+>  8 | import { initPixel, track } from "@/lib/fbpixel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | interface Product {
+  11 |   id: string;
+
+The export initPixel was not found in module [project]/Downloads/code (1)/lib/fbpixel.ts [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx [Client Component Browser]
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx [Client Component SSR]
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx [Server Component]
+[00:12:25.779] Browser ERROR   ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx:8:1
+Export initPixel doesn't exist in target module
+   6 | import Image from "next/image";
+   7 | import { createClient } from "@/lib/supabase/client";
+>  8 | import { initPixel, track } from "@/lib/fbpixel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | interface Product {
+  11 |   id: string;
+
+The export initPixel was not found in module [project]/Downloads/code (1)/lib/fbpixel.ts [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx [Client Component Browser]
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx [Client Component SSR]
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx [Server Component]
+[00:12:25.779] Browser ERROR   ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx:8:1
+Export track doesn't exist in target module
+   6 | import Image from "next/image";
+   7 | import { createClient } from "@/lib/supabase/client";
+>  8 | import { initPixel, track } from "@/lib/fbpixel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | interface Product {
+  11 |   id: string;
+
+The export track was not found in module [project]/Downloads/code (1)/lib/fbpixel.ts [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx [Client Component Browser]
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx [Client Component SSR]
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx [Server Component]
+[00:12:25.779] Browser ERROR   ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx:8:1
+Export track doesn't exist in target module
+   6 | import Image from "next/image";
+   7 | import { createClient } from "@/lib/supabase/client";
+>  8 | import { initPixel, track } from "@/lib/fbpixel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | interface Product {
+  11 |   id: string;
+
+The export track was not found in module [project]/Downloads/code (1)/lib/fbpixel.ts [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx [Client Component Browser]
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx [Client Component SSR]
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx [Server Component]
+[00:12:25.779] Browser ERROR   ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx:11:1
+Export initPixel doesn't exist in target module
+   9 | import { Label } from "@/components/ui/label";
+  10 | import { Input } from "@/components/ui/input";
+> 11 | import { initPixel, track } from "@/lib/fbpixel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 | interface Product {
+  14 |   id: string;
+
+The export initPixel was not found in module [project]/Downloads/code (1)/lib/fbpixel.ts [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx [Client Component Browser]
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx [Client Component SSR]
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx [Server Component]
+[00:12:25.779] Browser ERROR   ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx:11:1
+Export initPixel doesn't exist in target module
+   9 | import { Label } from "@/components/ui/label";
+  10 | import { Input } from "@/components/ui/input";
+> 11 | import { initPixel, track } from "@/lib/fbpixel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 | interface Product {
+  14 |   id: string;
+
+The export initPixel was not found in module [project]/Downloads/code (1)/lib/fbpixel.ts [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx [Client Component Browser]
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx [Client Component SSR]
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx [Server Component]
+[00:12:25.779] Browser ERROR   ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx:11:1
+Export track doesn't exist in target module
+   9 | import { Label } from "@/components/ui/label";
+  10 | import { Input } from "@/components/ui/input";
+> 11 | import { initPixel, track } from "@/lib/fbpixel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 | interface Product {
+  14 |   id: string;
+
+The export track was not found in module [project]/Downloads/code (1)/lib/fbpixel.ts [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx [Client Component Browser]
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx [Client Component SSR]
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx [Server Component]
+[00:12:25.779] Browser ERROR   ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx:11:1
+Export track doesn't exist in target module
+   9 | import { Label } from "@/components/ui/label";
+  10 | import { Input } from "@/components/ui/input";
+> 11 | import { initPixel, track } from "@/lib/fbpixel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 | interface Product {
+  14 |   id: string;
+
+The export track was not found in module [project]/Downloads/code (1)/lib/fbpixel.ts [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx [Client Component Browser]
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx [Client Component SSR]
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx [Server Component]
+[00:12:25.779] Browser ERROR   ./Downloads/code (1)/app/shop/[slug]/page.tsx:8:1
+Export initPixel doesn't exist in target module
+   6 | import Image from "next/image";
+   7 | import { createClient } from "@/lib/supabase/client";
+>  8 | import { initPixel } from "@/lib/fbpixel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | interface Shop {
+  11 |   id: string;
+
+The export initPixel was not found in module [project]/Downloads/code (1)/lib/fbpixel.ts [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/code (1)/app/shop/[slug]/page.tsx [Client Component Browser]
+    ./Downloads/code (1)/app/shop/[slug]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/code (1)/app/shop/[slug]/page.tsx [Client Component SSR]
+    ./Downloads/code (1)/app/shop/[slug]/page.tsx [Server Component]
+[00:12:25.779] Browser ERROR   ./Downloads/code (1)/app/shop/[slug]/page.tsx:8:1
+Export initPixel doesn't exist in target module
+   6 | import Image from "next/image";
+   7 | import { createClient } from "@/lib/supabase/client";
+>  8 | import { initPixel } from "@/lib/fbpixel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | interface Shop {
+  11 |   id: string;
+
+The export initPixel was not found in module [project]/Downloads/code (1)/lib/fbpixel.ts [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/code (1)/app/shop/[slug]/page.tsx [Client Component Browser]
+    ./Downloads/code (1)/app/shop/[slug]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/code (1)/app/shop/[slug]/page.tsx [Client Component SSR]
+    ./Downloads/code (1)/app/shop/[slug]/page.tsx [Server Component]
+[00:12:25.779] Browser ERROR   ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx:8:1
+Export initPixel doesn't exist in target module
+   6 | import Image from "next/image";
+   7 | import { createClient } from "@/lib/supabase/client";
+>  8 | import { initPixel, track } from "@/lib/fbpixel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | interface Product {
+  11 |   id: string;
+
+The export initPixel was not found in module [project]/Downloads/code (1)/lib/fbpixel.ts [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx [Client Component Browser]
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx [Client Component SSR]
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx [Server Component]
+[00:12:25.779] Browser ERROR   ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx:8:1
+Export initPixel doesn't exist in target module
+   6 | import Image from "next/image";
+   7 | import { createClient } from "@/lib/supabase/client";
+>  8 | import { initPixel, track } from "@/lib/fbpixel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | interface Product {
+  11 |   id: string;
+
+The export initPixel was not found in module [project]/Downloads/code (1)/lib/fbpixel.ts [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx [Client Component Browser]
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx [Client Component SSR]
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx [Server Component]
+[00:12:25.779] Browser ERROR   ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx:8:1
+Export track doesn't exist in target module
+   6 | import Image from "next/image";
+   7 | import { createClient } from "@/lib/supabase/client";
+>  8 | import { initPixel, track } from "@/lib/fbpixel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | interface Product {
+  11 |   id: string;
+
+The export track was not found in module [project]/Downloads/code (1)/lib/fbpixel.ts [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx [Client Component Browser]
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx [Client Component SSR]
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx [Server Component]
+[00:12:25.779] Browser ERROR   ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx:8:1
+Export track doesn't exist in target module
+   6 | import Image from "next/image";
+   7 | import { createClient } from "@/lib/supabase/client";
+>  8 | import { initPixel, track } from "@/lib/fbpixel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | interface Product {
+  11 |   id: string;
+
+The export track was not found in module [project]/Downloads/code (1)/lib/fbpixel.ts [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx [Client Component Browser]
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx [Client Component SSR]
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx [Server Component]
+[00:12:25.779] Browser ERROR   ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx:11:1
+Export initPixel doesn't exist in target module
+   9 | import { Label } from "@/components/ui/label";
+  10 | import { Input } from "@/components/ui/input";
+> 11 | import { initPixel, track } from "@/lib/fbpixel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 | interface Product {
+  14 |   id: string;
+
+The export initPixel was not found in module [project]/Downloads/code (1)/lib/fbpixel.ts [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx [Client Component Browser]
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx [Client Component SSR]
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx [Server Component]
+[00:12:25.779] Browser ERROR   ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx:11:1
+Export initPixel doesn't exist in target module
+   9 | import { Label } from "@/components/ui/label";
+  10 | import { Input } from "@/components/ui/input";
+> 11 | import { initPixel, track } from "@/lib/fbpixel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 | interface Product {
+  14 |   id: string;
+
+The export initPixel was not found in module [project]/Downloads/code (1)/lib/fbpixel.ts [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx [Client Component Browser]
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx [Client Component SSR]
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx [Server Component]
+[00:12:25.779] Browser ERROR   ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx:11:1
+Export track doesn't exist in target module
+   9 | import { Label } from "@/components/ui/label";
+  10 | import { Input } from "@/components/ui/input";
+> 11 | import { initPixel, track } from "@/lib/fbpixel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 | interface Product {
+  14 |   id: string;
+
+The export track was not found in module [project]/Downloads/code (1)/lib/fbpixel.ts [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx [Client Component Browser]
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx [Client Component SSR]
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx [Server Component]
+[00:12:25.779] Browser ERROR   ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx:11:1
+Export track doesn't exist in target module
+   9 | import { Label } from "@/components/ui/label";
+  10 | import { Input } from "@/components/ui/input";
+> 11 | import { initPixel, track } from "@/lib/fbpixel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 | interface Product {
+  14 |   id: string;
+
+The export track was not found in module [project]/Downloads/code (1)/lib/fbpixel.ts [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx [Client Component Browser]
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx [Client Component SSR]
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx [Server Component]
+[00:12:25.779] Browser ERROR   ./Downloads/code (1)/app/shop/[slug]/page.tsx:8:1
+Export initPixel doesn't exist in target module
+   6 | import Image from "next/image";
+   7 | import { createClient } from "@/lib/supabase/client";
+>  8 | import { initPixel } from "@/lib/fbpixel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | interface Shop {
+  11 |   id: string;
+
+The export initPixel was not found in module [project]/Downloads/code (1)/lib/fbpixel.ts [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/code (1)/app/shop/[slug]/page.tsx [Client Component Browser]
+    ./Downloads/code (1)/app/shop/[slug]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/code (1)/app/shop/[slug]/page.tsx [Client Component SSR]
+    ./Downloads/code (1)/app/shop/[slug]/page.tsx [Server Component]
+[00:12:25.779] Browser ERROR   ./Downloads/code (1)/app/shop/[slug]/page.tsx:8:1
+Export initPixel doesn't exist in target module
+   6 | import Image from "next/image";
+   7 | import { createClient } from "@/lib/supabase/client";
+>  8 | import { initPixel } from "@/lib/fbpixel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | interface Shop {
+  11 |   id: string;
+
+The export initPixel was not found in module [project]/Downloads/code (1)/lib/fbpixel.ts [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/code (1)/app/shop/[slug]/page.tsx [Client Component Browser]
+    ./Downloads/code (1)/app/shop/[slug]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/code (1)/app/shop/[slug]/page.tsx [Client Component SSR]
+    ./Downloads/code (1)/app/shop/[slug]/page.tsx [Server Component]
+[00:12:25.780] Browser ERROR   ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx:8:1
+Export initPixel doesn't exist in target module
+   6 | import Image from "next/image";
+   7 | import { createClient } from "@/lib/supabase/client";
+>  8 | import { initPixel, track } from "@/lib/fbpixel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | interface Product {
+  11 |   id: string;
+
+The export initPixel was not found in module [project]/Downloads/code (1)/lib/fbpixel.ts [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx [Client Component Browser]
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx [Client Component SSR]
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx [Server Component]
+[00:12:25.780] Browser ERROR   ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx:8:1
+Export initPixel doesn't exist in target module
+   6 | import Image from "next/image";
+   7 | import { createClient } from "@/lib/supabase/client";
+>  8 | import { initPixel, track } from "@/lib/fbpixel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | interface Product {
+  11 |   id: string;
+
+The export initPixel was not found in module [project]/Downloads/code (1)/lib/fbpixel.ts [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx [Client Component Browser]
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx [Client Component SSR]
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx [Server Component]
+[00:12:25.780] Browser ERROR   ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx:8:1
+Export track doesn't exist in target module
+   6 | import Image from "next/image";
+   7 | import { createClient } from "@/lib/supabase/client";
+>  8 | import { initPixel, track } from "@/lib/fbpixel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | interface Product {
+  11 |   id: string;
+
+The export track was not found in module [project]/Downloads/code (1)/lib/fbpixel.ts [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx [Client Component Browser]
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx [Client Component SSR]
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx [Server Component]
+[00:12:25.780] Browser ERROR   ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx:8:1
+Export track doesn't exist in target module
+   6 | import Image from "next/image";
+   7 | import { createClient } from "@/lib/supabase/client";
+>  8 | import { initPixel, track } from "@/lib/fbpixel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | interface Product {
+  11 |   id: string;
+
+The export track was not found in module [project]/Downloads/code (1)/lib/fbpixel.ts [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx [Client Component Browser]
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx [Client Component SSR]
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx [Server Component]
+[00:12:25.780] Browser ERROR   ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx:11:1
+Export initPixel doesn't exist in target module
+   9 | import { Label } from "@/components/ui/label";
+  10 | import { Input } from "@/components/ui/input";
+> 11 | import { initPixel, track } from "@/lib/fbpixel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 | interface Product {
+  14 |   id: string;
+
+The export initPixel was not found in module [project]/Downloads/code (1)/lib/fbpixel.ts [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx [Client Component Browser]
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx [Client Component SSR]
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx [Server Component]
+[00:12:25.780] Browser ERROR   ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx:11:1
+Export initPixel doesn't exist in target module
+   9 | import { Label } from "@/components/ui/label";
+  10 | import { Input } from "@/components/ui/input";
+> 11 | import { initPixel, track } from "@/lib/fbpixel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 | interface Product {
+  14 |   id: string;
+
+The export initPixel was not found in module [project]/Downloads/code (1)/lib/fbpixel.ts [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx [Client Component Browser]
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx [Client Component SSR]
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx [Server Component]
+[00:12:25.780] Browser ERROR   ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx:11:1
+Export track doesn't exist in target module
+   9 | import { Label } from "@/components/ui/label";
+  10 | import { Input } from "@/components/ui/input";
+> 11 | import { initPixel, track } from "@/lib/fbpixel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 | interface Product {
+  14 |   id: string;
+
+The export track was not found in module [project]/Downloads/code (1)/lib/fbpixel.ts [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx [Client Component Browser]
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx [Client Component SSR]
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx [Server Component]
+[00:12:25.780] Browser ERROR   ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx:11:1
+Export track doesn't exist in target module
+   9 | import { Label } from "@/components/ui/label";
+  10 | import { Input } from "@/components/ui/input";
+> 11 | import { initPixel, track } from "@/lib/fbpixel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 | interface Product {
+  14 |   id: string;
+
+The export track was not found in module [project]/Downloads/code (1)/lib/fbpixel.ts [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx [Client Component Browser]
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx [Client Component SSR]
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx [Server Component]
+[00:12:25.780] Browser ERROR   ./Downloads/code (1)/app/shop/[slug]/page.tsx:8:1
+Export initPixel doesn't exist in target module
+   6 | import Image from "next/image";
+   7 | import { createClient } from "@/lib/supabase/client";
+>  8 | import { initPixel } from "@/lib/fbpixel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | interface Shop {
+  11 |   id: string;
+
+The export initPixel was not found in module [project]/Downloads/code (1)/lib/fbpixel.ts [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/code (1)/app/shop/[slug]/page.tsx [Client Component Browser]
+    ./Downloads/code (1)/app/shop/[slug]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/code (1)/app/shop/[slug]/page.tsx [Client Component SSR]
+    ./Downloads/code (1)/app/shop/[slug]/page.tsx [Server Component]
+[00:12:25.780] Browser ERROR   ./Downloads/code (1)/app/shop/[slug]/page.tsx:8:1
+Export initPixel doesn't exist in target module
+   6 | import Image from "next/image";
+   7 | import { createClient } from "@/lib/supabase/client";
+>  8 | import { initPixel } from "@/lib/fbpixel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | interface Shop {
+  11 |   id: string;
+
+The export initPixel was not found in module [project]/Downloads/code (1)/lib/fbpixel.ts [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/code (1)/app/shop/[slug]/page.tsx [Client Component Browser]
+    ./Downloads/code (1)/app/shop/[slug]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/code (1)/app/shop/[slug]/page.tsx [Client Component SSR]
+    ./Downloads/code (1)/app/shop/[slug]/page.tsx [Server Component]
+[00:12:25.780] Browser ERROR   ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx:8:1
+Export initPixel doesn't exist in target module
+   6 | import Image from "next/image";
+   7 | import { createClient } from "@/lib/supabase/client";
+>  8 | import { initPixel, track } from "@/lib/fbpixel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | interface Product {
+  11 |   id: string;
+
+The export initPixel was not found in module [project]/Downloads/code (1)/lib/fbpixel.ts [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx [Client Component Browser]
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx [Client Component SSR]
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx [Server Component]
+[00:12:25.780] Browser ERROR   ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx:8:1
+Export initPixel doesn't exist in target module
+   6 | import Image from "next/image";
+   7 | import { createClient } from "@/lib/supabase/client";
+>  8 | import { initPixel, track } from "@/lib/fbpixel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | interface Product {
+  11 |   id: string;
+
+The export initPixel was not found in module [project]/Downloads/code (1)/lib/fbpixel.ts [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx [Client Component Browser]
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx [Client Component SSR]
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx [Server Component]
+[00:12:25.780] Browser ERROR   ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx:8:1
+Export track doesn't exist in target module
+   6 | import Image from "next/image";
+   7 | import { createClient } from "@/lib/supabase/client";
+>  8 | import { initPixel, track } from "@/lib/fbpixel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | interface Product {
+  11 |   id: string;
+
+The export track was not found in module [project]/Downloads/code (1)/lib/fbpixel.ts [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx [Client Component Browser]
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx [Client Component SSR]
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx [Server Component]
+[00:12:25.780] Browser ERROR   ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx:8:1
+Export track doesn't exist in target module
+   6 | import Image from "next/image";
+   7 | import { createClient } from "@/lib/supabase/client";
+>  8 | import { initPixel, track } from "@/lib/fbpixel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | interface Product {
+  11 |   id: string;
+
+The export track was not found in module [project]/Downloads/code (1)/lib/fbpixel.ts [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx [Client Component Browser]
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx [Client Component SSR]
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx [Server Component]
+[00:12:25.780] Browser ERROR   ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx:11:1
+Export initPixel doesn't exist in target module
+   9 | import { Label } from "@/components/ui/label";
+  10 | import { Input } from "@/components/ui/input";
+> 11 | import { initPixel, track } from "@/lib/fbpixel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 | interface Product {
+  14 |   id: string;
+
+The export initPixel was not found in module [project]/Downloads/code (1)/lib/fbpixel.ts [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx [Client Component Browser]
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx [Client Component SSR]
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx [Server Component]
+[00:12:25.780] Browser ERROR   ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx:11:1
+Export initPixel doesn't exist in target module
+   9 | import { Label } from "@/components/ui/label";
+  10 | import { Input } from "@/components/ui/input";
+> 11 | import { initPixel, track } from "@/lib/fbpixel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 | interface Product {
+  14 |   id: string;
+
+The export initPixel was not found in module [project]/Downloads/code (1)/lib/fbpixel.ts [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx [Client Component Browser]
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx [Client Component SSR]
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx [Server Component]
+[00:12:25.780] Browser ERROR   ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx:11:1
+Export track doesn't exist in target module
+   9 | import { Label } from "@/components/ui/label";
+  10 | import { Input } from "@/components/ui/input";
+> 11 | import { initPixel, track } from "@/lib/fbpixel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 | interface Product {
+  14 |   id: string;
+
+The export track was not found in module [project]/Downloads/code (1)/lib/fbpixel.ts [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx [Client Component Browser]
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx [Client Component SSR]
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx [Server Component]
+[00:12:25.780] Browser ERROR   ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx:11:1
+Export track doesn't exist in target module
+   9 | import { Label } from "@/components/ui/label";
+  10 | import { Input } from "@/components/ui/input";
+> 11 | import { initPixel, track } from "@/lib/fbpixel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 | interface Product {
+  14 |   id: string;
+
+The export track was not found in module [project]/Downloads/code (1)/lib/fbpixel.ts [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx [Client Component Browser]
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx [Client Component SSR]
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx [Server Component]
+[00:12:25.780] Browser ERROR   ./Downloads/code (1)/app/shop/[slug]/page.tsx:8:1
+Export initPixel doesn't exist in target module
+   6 | import Image from "next/image";
+   7 | import { createClient } from "@/lib/supabase/client";
+>  8 | import { initPixel } from "@/lib/fbpixel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | interface Shop {
+  11 |   id: string;
+
+The export initPixel was not found in module [project]/Downloads/code (1)/lib/fbpixel.ts [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/code (1)/app/shop/[slug]/page.tsx [Client Component Browser]
+    ./Downloads/code (1)/app/shop/[slug]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/code (1)/app/shop/[slug]/page.tsx [Client Component SSR]
+    ./Downloads/code (1)/app/shop/[slug]/page.tsx [Server Component]
+[00:12:25.780] Browser ERROR   ./Downloads/code (1)/app/shop/[slug]/page.tsx:8:1
+Export initPixel doesn't exist in target module
+   6 | import Image from "next/image";
+   7 | import { createClient } from "@/lib/supabase/client";
+>  8 | import { initPixel } from "@/lib/fbpixel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | interface Shop {
+  11 |   id: string;
+
+The export initPixel was not found in module [project]/Downloads/code (1)/lib/fbpixel.ts [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/code (1)/app/shop/[slug]/page.tsx [Client Component Browser]
+    ./Downloads/code (1)/app/shop/[slug]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/code (1)/app/shop/[slug]/page.tsx [Client Component SSR]
+    ./Downloads/code (1)/app/shop/[slug]/page.tsx [Server Component]
+[00:12:25.781] Browser ERROR   ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx:8:1
+Export initPixel doesn't exist in target module
+   6 | import Image from "next/image";
+   7 | import { createClient } from "@/lib/supabase/client";
+>  8 | import { initPixel, track } from "@/lib/fbpixel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | interface Product {
+  11 |   id: string;
+
+The export initPixel was not found in module [project]/Downloads/code (1)/lib/fbpixel.ts [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx [Client Component Browser]
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx [Client Component SSR]
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx [Server Component]
+[00:12:25.781] Browser ERROR   ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx:8:1
+Export initPixel doesn't exist in target module
+   6 | import Image from "next/image";
+   7 | import { createClient } from "@/lib/supabase/client";
+>  8 | import { initPixel, track } from "@/lib/fbpixel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | interface Product {
+  11 |   id: string;
+
+The export initPixel was not found in module [project]/Downloads/code (1)/lib/fbpixel.ts [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx [Client Component Browser]
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx [Client Component SSR]
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx [Server Component]
+[00:12:25.781] Browser ERROR   ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx:8:1
+Export track doesn't exist in target module
+   6 | import Image from "next/image";
+   7 | import { createClient } from "@/lib/supabase/client";
+>  8 | import { initPixel, track } from "@/lib/fbpixel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | interface Product {
+  11 |   id: string;
+
+The export track was not found in module [project]/Downloads/code (1)/lib/fbpixel.ts [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx [Client Component Browser]
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx [Client Component SSR]
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx [Server Component]
+[00:12:25.781] Browser ERROR   ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx:8:1
+Export track doesn't exist in target module
+   6 | import Image from "next/image";
+   7 | import { createClient } from "@/lib/supabase/client";
+>  8 | import { initPixel, track } from "@/lib/fbpixel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | interface Product {
+  11 |   id: string;
+
+The export track was not found in module [project]/Downloads/code (1)/lib/fbpixel.ts [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx [Client Component Browser]
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx [Client Component SSR]
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/page.tsx [Server Component]
+[00:12:25.781] Browser ERROR   ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx:11:1
+Export initPixel doesn't exist in target module
+   9 | import { Label } from "@/components/ui/label";
+  10 | import { Input } from "@/components/ui/input";
+> 11 | import { initPixel, track } from "@/lib/fbpixel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 | interface Product {
+  14 |   id: string;
+
+The export initPixel was not found in module [project]/Downloads/code (1)/lib/fbpixel.ts [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx [Client Component Browser]
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx [Client Component SSR]
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx [Server Component]
+[00:12:25.781] Browser ERROR   ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx:11:1
+Export initPixel doesn't exist in target module
+   9 | import { Label } from "@/components/ui/label";
+  10 | import { Input } from "@/components/ui/input";
+> 11 | import { initPixel, track } from "@/lib/fbpixel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 | interface Product {
+  14 |   id: string;
+
+The export initPixel was not found in module [project]/Downloads/code (1)/lib/fbpixel.ts [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx [Client Component Browser]
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx [Client Component SSR]
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx [Server Component]
+[00:12:25.781] Browser ERROR   ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx:11:1
+Export track doesn't exist in target module
+   9 | import { Label } from "@/components/ui/label";
+  10 | import { Input } from "@/components/ui/input";
+> 11 | import { initPixel, track } from "@/lib/fbpixel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 | interface Product {
+  14 |   id: string;
+
+The export track was not found in module [project]/Downloads/code (1)/lib/fbpixel.ts [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx [Client Component Browser]
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx [Client Component SSR]
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx [Server Component]
+[00:12:25.781] Browser ERROR   ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx:11:1
+Export track doesn't exist in target module
+   9 | import { Label } from "@/components/ui/label";
+  10 | import { Input } from "@/components/ui/input";
+> 11 | import { initPixel, track } from "@/lib/fbpixel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 | interface Product {
+  14 |   id: string;
+
+The export track was not found in module [project]/Downloads/code (1)/lib/fbpixel.ts [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx [Client Component Browser]
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx [Client Component SSR]
+    ./Downloads/code (1)/app/shop/[slug]/product/[productId]/checkout/page.tsx [Server Component]
+[00:12:25.781] Browser ERROR   ./Downloads/code (1)/app/shop/[slug]/page.tsx:8:1
+Export initPixel doesn't exist in target module
+   6 | import Image from "next/image";
+   7 | import { createClient } from "@/lib/supabase/client";
+>  8 | import { initPixel } from "@/lib/fbpixel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | interface Shop {
+  11 |   id: string;
+
+The export initPixel was not found in module [project]/Downloads/code (1)/lib/fbpixel.ts [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/code (1)/app/shop/[slug]/page.tsx [Client Component Browser]
+    ./Downloads/code (1)/app/shop/[slug]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/code (1)/app/shop/[slug]/page.tsx [Client Component SSR]
+    ./Downloads/code (1)/app/shop/[slug]/page.tsx [Server Component]
+[00:12:25.781] Browser ERROR   ./Downloads/code (1)/app/shop/[slug]/page.tsx:8:1
+Export initPixel doesn't exist in target module
+   6 | import Image from "next/image";
+   7 | import { createClient } from "@/lib/supabase/client";
+>  8 | import { initPixel } from "@/lib/fbpixel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | interface Shop {
+  11 |   id: string;
+
+The export initPixel was not found in module [project]/Downloads/code (1)/lib/fbpixel.ts [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/code (1)/app/shop/[slug]/page.tsx [Client Component Browser]
+    ./Downloads/code (1)/app/shop/[slug]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/code (1)/app/shop/[slug]/page.tsx [Client Component SSR]
+    ./Downloads/code (1)/app/shop/[slug]/page.tsx [Server Component]
+[00:12:36.626] Server  LOG      ✓ Compiled in 136ms
+[00:12:39.606] Browser LOG     [Shop Page] Shop: Tech Store (ID: 550e8400-e29b-41d4-a716-446655440001, Slug: tech-store)
+[00:12:39.606] Browser LOG     [Shop Page] Using Pixel ID: 3647080795423665 for this shop
+[00:12:39.606] Browser LOG     Facebook Pixel script already loaded.
+[00:12:39.606] Browser LOG     Facebook Pixel initialized with ID: 3647080795423665
+[00:12:39.716] Browser LOG     [Shop Page] Shop: Tech Store (ID: 550e8400-e29b-41d4-a716-446655440001, Slug: tech-store)
+[00:12:39.716] Browser LOG     [Shop Page] Using Pixel ID: 3647080795423665 for this shop
+[00:12:39.716] Browser LOG     Facebook Pixel script already loaded.
+[00:12:39.716] Browser LOG     Facebook Pixel initialized with ID: 3647080795423665
+[00:12:42.801] Server  LOG      ✓ Compiled in 175ms
+[00:12:55.055] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/shop/tech-store/product/b41220c0-504b-42ff-bbcc-2a9683aed129 color: rgb(120, 120, 120) color: inherit {"dp":"/shop/[slug]/product/[productId]","o":"http://localhost:3000/shop/tech-store/product/b41220c0-504b-42ff-bbcc-2a9683aed129","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763335965372}
+[00:12:55.475] Browser LOG     [Product Page] Shop: Tech Store (ID: 550e8400-e29b-41d4-a716-446655440001)
+[00:12:55.475] Browser LOG     [Product Page] Using Pixel ID: 3647080795423665 for this shop
+[00:12:55.476] Browser LOG     Facebook Pixel script already loaded.
+[00:12:55.476] Browser LOG     Facebook Pixel initialized with ID: 3647080795423665
+[00:12:55.476] Browser LOG     [Product Page] Shop: Tech Store (ID: 550e8400-e29b-41d4-a716-446655440001)
+[00:12:55.476] Browser LOG     [Product Page] Using Pixel ID: 3647080795423665 for this shop
+[00:12:55.476] Browser LOG     Facebook Pixel script already loaded.
+[00:12:55.476] Browser LOG     Facebook Pixel initialized with ID: 3647080795423665
+[00:12:55.788] Browser LOG     [Product Page] Tracking ViewContent for product: svdvsvd
+[00:12:55.788] Browser LOG     Tracking event: ViewContent {"content_ids":["b41220c0-504b-42ff-bbcc-2a9683aed129"],"content_name":"svdvsvd","content_type":"product","currency":"TND","value":200}
+[00:12:55.788] Browser LOG     [Product Page] Tracking ViewContent for product: svdvsvd
+[00:12:55.788] Browser LOG     Tracking event: ViewContent {"content_ids":["b41220c0-504b-42ff-bbcc-2a9683aed129"],"content_name":"svdvsvd","content_type":"product","currency":"TND","value":200}
+[00:13:12.093] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:13:13.594] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:13:13.789] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:13:13.790] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/shop/tech-store/product/b24b52ba-3ebd-4dc7-8b4f-9e12e1f18cd3","route":"/shop/[slug]/product/[productId]"}
+[00:13:13.790] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/shop/tech-store/product/b24b52ba-3ebd-4dc7-8b4f-9e12e1f18cd3 color: rgb(120, 120, 120) color: inherit {"dp":"/shop/[slug]/product/[productId]","o":"http://localhost:3000/shop/tech-store/product/b24b52ba-3ebd-4dc7-8b4f-9e12e1f18cd3","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763335983110}
+[00:13:13.790] Browser LOG     [Product Page] Shop: Tech Store (ID: 550e8400-e29b-41d4-a716-446655440001)
+[00:13:13.790] Browser LOG     [Product Page] Using Pixel ID: 3647080795423665 for this shop
+[00:13:13.790] Browser LOG     Facebook Pixel script loaded successfully.
+[00:13:13.790] Browser LOG     Facebook Pixel initialized with ID: 3647080795423665
+[00:13:13.999] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:13:13.999] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/dashboard/settings","route":"/dashboard/settings"}
+[00:13:13.999] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/dashboard/settings color: rgb(120, 120, 120) color: inherit {"dp":"/dashboard/settings","o":"http://localhost:3000/dashboard/settings","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763335984316}
+[00:13:14.777] Browser LOG     [Product Page] Tracking ViewContent for product: youu
+[00:13:14.777] Browser LOG     Tracking event: ViewContent {"content_ids":["b24b52ba-3ebd-4dc7-8b4f-9e12e1f18cd3"],"content_name":"youu","content_type":"product","currency":"TND","value":50000}
+[00:15:51.183] Server  LOG      ✓ Compiled in 235ms
+[00:16:19.234] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:16:19.647] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:16:19.647] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/dashboard/settings","route":"/dashboard/settings"}
+[00:16:19.647] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/dashboard/settings color: rgb(120, 120, 120) color: inherit {"dp":"/dashboard/settings","o":"http://localhost:3000/dashboard/settings","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763336169957}
+[00:16:30.814] Browser LOG     Saving Facebook Pixel ID: 3647080795423665
+[00:16:36.791] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:16:37.153] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:16:37.153] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/dashboard/settings","route":"/dashboard/settings"}
+[00:16:37.153] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/dashboard/settings color: rgb(120, 120, 120) color: inherit {"dp":"/dashboard/settings","o":"http://localhost:3000/dashboard/settings","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763336187471}
+[00:16:40.326] Browser LOG     Saving Facebook Pixel ID: 3647080795423665
+[00:17:07.471] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:17:07.955] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:17:07.955] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/shop/tech-store/product/b24b52ba-3ebd-4dc7-8b4f-9e12e1f18cd3","route":"/shop/[slug]/product/[productId]"}
+[00:17:07.955] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/shop/tech-store/product/b24b52ba-3ebd-4dc7-8b4f-9e12e1f18cd3 color: rgb(120, 120, 120) color: inherit {"dp":"/shop/[slug]/product/[productId]","o":"http://localhost:3000/shop/tech-store/product/b24b52ba-3ebd-4dc7-8b4f-9e12e1f18cd3","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763336218269}
+[00:17:08.268] Browser LOG     [Product Page] Shop: Tech Store (ID: 550e8400-e29b-41d4-a716-446655440001)
+[00:17:08.268] Browser LOG     [Product Page] Using Pixel ID: 3647080795423665 for this shop
+[00:17:08.268] Browser LOG     Facebook Pixel script loaded successfully.
+[00:17:08.268] Browser LOG     Facebook Pixel initialized with ID: 3647080795423665
+[00:17:08.539] Browser LOG     [Product Page] Tracking ViewContent for product: youu
+[00:17:08.539] Browser LOG     Tracking event: ViewContent {"content_ids":["b24b52ba-3ebd-4dc7-8b4f-9e12e1f18cd3"],"content_name":"youu","content_type":"product","currency":"TND","value":50000}
+[00:43:12.903] Browser WARN    Image with src "https://vhfvfcnmhjvkrewvqqza.supabase.co/storage/v1/object/public/product-images/550e8400-e29b-41d4-a716-446655440001/892d8d9b-f50e-4e2d-b4c3-634bc391abfd/ba5d0e67-cd86-4a63-b75b-1f03f90cb2be.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:43:24.236] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:43:24.657] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:43:24.657] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/shop/tech-store","route":"/shop/[slug]"}
+[00:43:24.657] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/shop/tech-store color: rgb(120, 120, 120) color: inherit {"dp":"/shop/[slug]","o":"http://localhost:3000/shop/tech-store","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763337794912}
+[00:43:25.237] Browser LOG     [Shop Page] Shop: Tech Store (ID: 550e8400-e29b-41d4-a716-446655440001, Slug: tech-store)
+[00:43:25.237] Browser LOG     [Shop Page] Using Pixel ID: 3647080795423665 for this shop
+[00:43:25.470] Browser LOG     Facebook Pixel script loaded successfully.
+[00:43:25.470] Browser LOG     Facebook Pixel initialized with ID: 3647080795423665
+[00:43:25.904] Browser WARN    Image with src "https://vhfvfcnmhjvkrewvqqza.supabase.co/storage/v1/object/public/product-images/550e8400-e29b-41d4-a716-446655440001/892d8d9b-f50e-4e2d-b4c3-634bc391abfd/ba5d0e67-cd86-4a63-b75b-1f03f90cb2be.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:43:28.991] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/shop/tech-store/product/b41220c0-504b-42ff-bbcc-2a9683aed129 color: rgb(120, 120, 120) color: inherit {"dp":"/shop/[slug]/product/[productId]","o":"http://localhost:3000/shop/tech-store/product/b41220c0-504b-42ff-bbcc-2a9683aed129","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763337799302}
+[00:43:29.738] Browser LOG     [Product Page] Shop: Tech Store (ID: 550e8400-e29b-41d4-a716-446655440001)
+[00:43:29.738] Browser LOG     [Product Page] Using Pixel ID: 3647080795423665 for this shop
+[00:43:29.738] Browser LOG     Facebook Pixel script already loaded.
+[00:43:29.738] Browser LOG     Facebook Pixel initialized with ID: 3647080795423665
+[00:43:29.738] Browser LOG     [Product Page] Shop: Tech Store (ID: 550e8400-e29b-41d4-a716-446655440001)
+[00:43:29.738] Browser LOG     [Product Page] Using Pixel ID: 3647080795423665 for this shop
+[00:43:29.738] Browser LOG     Facebook Pixel script already loaded.
+[00:43:29.738] Browser LOG     Facebook Pixel initialized with ID: 3647080795423665
+[00:43:30.051] Browser LOG     [Product Page] Tracking ViewContent for product: svdvsvd
+[00:43:30.052] Browser LOG     Tracking event: ViewContent {"content_ids":["b41220c0-504b-42ff-bbcc-2a9683aed129"],"content_name":"svdvsvd","content_type":"product","currency":"TND","value":200}
+[00:43:30.052] Browser LOG     [Product Page] Tracking ViewContent for product: svdvsvd
+[00:43:30.052] Browser LOG     Tracking event: ViewContent {"content_ids":["b41220c0-504b-42ff-bbcc-2a9683aed129"],"content_name":"svdvsvd","content_type":"product","currency":"TND","value":200}
+[00:43:36.943] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/shop/tech-store color: rgb(120, 120, 120) color: inherit {"dp":"/shop/[slug]","o":"http://localhost:3000/shop/tech-store","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763337807260}
+[00:43:37.202] Browser LOG     [Shop Page] Shop: Tech Store (ID: 550e8400-e29b-41d4-a716-446655440001, Slug: tech-store)
+[00:43:37.202] Browser LOG     [Shop Page] Using Pixel ID: 3647080795423665 for this shop
+[00:43:37.202] Browser LOG     Facebook Pixel script already loaded.
+[00:43:37.202] Browser LOG     Facebook Pixel initialized with ID: 3647080795423665
+[00:43:37.202] Browser LOG     [Shop Page] Shop: Tech Store (ID: 550e8400-e29b-41d4-a716-446655440001, Slug: tech-store)
+[00:43:37.202] Browser LOG     [Shop Page] Using Pixel ID: 3647080795423665 for this shop
+[00:43:37.202] Browser LOG     Facebook Pixel script already loaded.
+[00:43:37.202] Browser LOG     Facebook Pixel initialized with ID: 3647080795423665
+[00:48:17.603] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:48:18.018] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:48:18.018] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/dashboard","route":"/dashboard"}
+[00:48:18.018] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/dashboard color: rgb(120, 120, 120) color: inherit {"dp":"/dashboard","o":"http://localhost:3000/dashboard","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763338088337}
+[00:48:22.131] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/dashboard/orders color: rgb(120, 120, 120) color: inherit {"dp":"/dashboard/orders","o":"http://localhost:3000/dashboard/orders","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763338092441}
+[01:42:15.159] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:42:17.797] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:42:17.797] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/shop/tech-store/product/b24b52ba-3ebd-4dc7-8b4f-9e12e1f18cd3/checkout","route":"/shop/[slug]/product/[productId]/checkout"}
+[01:42:17.797] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/shop/tech-store/product/b24b52ba-3ebd-4dc7-8b4f-9e12e1f18cd3/checkout color: rgb(120, 120, 120) color: inherit {"dp":"/shop/[slug]/product/[productId]/checkout","o":"http://localhost:3000/shop/tech-store/product/b24b52ba-3ebd-4dc7-8b4f-9e12e1f18cd3/checkout","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763341327666}
+[01:42:18.825] Browser LOG     Facebook Pixel script loaded successfully.
+[01:42:18.825] Browser LOG     Facebook Pixel initialized with ID: 3647080795423665
