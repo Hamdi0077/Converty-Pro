@@ -71,8 +71,10 @@ export default function SignupPage() {
       // Show success message
       router.push("/auth/signup-success");
     } catch (err: unknown) {
-      setError(err instanceof Error ? err.message : "Failed to sign up");
-    } finally {
+  console.error("SIGNUP ERROR:", err);  // <-- ceci te montre l'erreur dans la console du navigateur
+  setError(err instanceof Error ? err.message : "Failed to sign up");
+}
+ finally {
       setIsLoading(false);
     }
   };
