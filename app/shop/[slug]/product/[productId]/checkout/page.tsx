@@ -8,7 +8,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
 import { Label } from "@/components/ui/label";
 import { Input } from "@/components/ui/input";
-import { initPixel, track } from "@/lib/fbpixel";
+import { track } from "@/lib/fbpixel";
 
 interface Product {
   id: string;
@@ -30,7 +30,6 @@ export default function CheckoutPage() {
 
   const [product, setProduct] = useState<Product | null>(null);
   const [shopId, setShopId] = useState<string | null>(null);
-  const [pixelId, setPixelId] = useState<string | null>(null);
 
   const [customerName, setCustomerName] = useState("");
   const [customerPhone, setCustomerPhone] = useState("");
@@ -51,7 +50,7 @@ export default function CheckoutPage() {
         // 1) boutique
         const { data: shop, error: shopError } = await supabase
           .from("shops")
-          .select("id, facebook_pixel_id")
+          .select("id")
           .eq("slug", shopSlug)
           .single();
 
@@ -61,12 +60,6 @@ export default function CheckoutPage() {
           return;
         }
         setShopId(shop.id);
-        setPixelId(shop.facebook_pixel_id || null);
-        
-        // Initialiser le pixel si disponible
-        if (shop.facebook_pixel_id) {
-          initPixel(shop.facebook_pixel_id);
-        }
 
         // 2) produit
         const { data: prod, error: prodError } = await supabase
@@ -85,6 +78,16 @@ export default function CheckoutPage() {
         }
 
         setProduct(prod as Product);
+
+        // Track InitiateCheckout event for Facebook Pixel
+        track("InitiateCheckout", {
+          content_ids: [prod.id],
+          content_name: prod.name,
+          content_type: "product",
+          value: prod.price,
+          currency: "TND", // TODO: Get from shop settings
+          num_items: 1,
+        });
       } catch (err) {
         console.error("Checkout load error:", err);
         setErrorMsg("Erreur lors du chargement du produit");
@@ -182,17 +185,22 @@ export default function CheckoutPage() {
         "Merci ! Votre commande a été bien enregistrée. Nous vous contacterons pour la livraison."
       );
 
-      // Tracker Purchase
-      if (pixelId && product) {
-        track("Purchase", {
-          content_name: product.name,
-          content_ids: [product.id],
-          content_type: "product",
-          value: total,
-          currency: "TND",
-          num_items: qty,
-        });
-      }
+      // Track Purchase event for Facebook Pixel
+      track("Purchase", {
+        content_ids: [product.id],
+        content_name: product.name,
+        content_type: "product",
+        value: total,
+        currency: "TND", // TODO: Get from shop settings
+        num_items: qty,
+        contents: [
+          {
+            id: product.id,
+            quantity: qty,
+            item_price: product.price,
+          },
+        ],
+      });
 
       setCustomerName("");
       setCustomerPhone("");
