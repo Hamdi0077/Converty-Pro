@@ -19,6 +19,7 @@ interface ShopSettings {
   store_currency: string;
   tax_rate: number;
   facebook_pixel_id: string | null;
+  facebook_pixel_enabled: boolean;
 }
 
 export default function SettingsPage() {
@@ -37,6 +38,7 @@ export default function SettingsPage() {
     currency: "USD",
     taxRate: "0",
     facebookPixelId: "",
+    facebookPixelEnabled: false,
   });
 
   useEffect(() => {
@@ -67,6 +69,7 @@ export default function SettingsPage() {
           currency: data.store_currency || "USD",
           taxRate: (data.tax_rate || 0).toString(),
           facebookPixelId: data.facebook_pixel_id || "",
+          facebookPixelEnabled: data.facebook_pixel_enabled || false,
         });
       }
     } catch (error) {
@@ -77,11 +80,37 @@ export default function SettingsPage() {
   };
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
-    const { name, value } = e.target;
+    const { name, value, type } = e.target;
+    const checked = (e.target as HTMLInputElement).checked;
     setFormData(prev => ({
       ...prev,
-      [name]: value,
+      [name]: type === "checkbox" ? checked : value,
     }));
+  };
+
+  const handleSaveFacebookPixel = async () => {
+    if (!shop) return;
+
+    setIsSaving(true);
+    try {
+      const { error } = await supabase
+        .from("shops")
+        .update({
+          facebook_pixel_id: formData.facebookPixelId || null,
+          facebook_pixel_enabled: formData.facebookPixelEnabled,
+        })
+        .eq("id", shop.id);
+
+      if (error) throw error;
+
+      alert("Facebook Pixel settings updated successfully!");
+      loadShop();
+    } catch (error) {
+      console.error("Error saving Facebook Pixel settings:", error);
+      alert("Failed to save Facebook Pixel settings");
+    } finally {
+      setIsSaving(false);
+    }
   };
 
   const handleSave = async () => {
@@ -110,37 +139,6 @@ export default function SettingsPage() {
     } catch (error) {
       console.error("Error saving settings:", error);
       alert("Failed to save settings");
-    } finally {
-      setIsSaving(false);
-    }
-  };
-
-  // Add logging to debug the saving of Facebook Pixel ID
-  const handleSaveIntegrations = async () => {
-    if (!shop) return;
-
-    setIsSaving(true);
-    try {
-      console.log("Saving Facebook Pixel ID:", formData.facebookPixelId);
-
-      const { error } = await supabase
-        .from("shops")
-        .update({
-          facebook_pixel_id: formData.facebookPixelId || null,
-        })
-        .eq("id", shop.id);
-
-      if (error) {
-        console.error("Error saving Facebook Pixel ID:", error);
-        alert("Failed to save integration settings");
-        return;
-      }
-
-      alert("Integration settings updated successfully!");
-      loadShop();
-    } catch (error) {
-      console.error("Unexpected error saving integration settings:", error);
-      alert("Failed to save integration settings");
     } finally {
       setIsSaving(false);
     }
@@ -354,36 +352,7 @@ export default function SettingsPage() {
               <CardTitle>Integrations</CardTitle>
             </CardHeader>
             <CardContent className="space-y-4">
-              <div className="space-y-4">
-                <div className="p-4 border-2 border-primary/20 rounded-lg space-y-4 bg-primary/5">
-                  <div>
-                    <p className="font-semibold text-lg">Facebook Pixel</p>
-                    <p className="text-sm text-muted-foreground">Track conversions and run ads</p>
-                  </div>
-                  <div className="space-y-2">
-                    <Label htmlFor="facebookPixelId" className="text-base font-medium">
-                      Facebook Pixel ID
-                    </Label>
-                    <Input
-                      id="facebookPixelId"
-                      name="facebookPixelId"
-                      value={formData.facebookPixelId}
-                      onChange={handleInputChange}
-                      placeholder="Enter your Facebook Pixel ID (e.g., 123456789012345)"
-                      disabled={isSaving}
-                      className="text-base"
-                    />
-                    <p className="text-xs text-muted-foreground">
-                      💡 Find your Pixel ID in Facebook Events Manager → Settings → Your Pixel
-                    </p>
-                    {formData.facebookPixelId && (
-                      <p className="text-xs text-green-600 font-medium">
-                        ✓ Pixel ID saved: {formData.facebookPixelId}
-                      </p>
-                    )}
-                  </div>
-                </div>
-
+              <div className="space-y-3">
                 <div className="flex items-center justify-between p-4 border border-border rounded-lg">
                   <div>
                     <p className="font-medium">Google Analytics</p>
@@ -393,6 +362,66 @@ export default function SettingsPage() {
                     Connect
                   </Button>
                 </div>
+
+                <Card>
+                  <CardHeader>
+                    <CardTitle>Facebook Pixel</CardTitle>
+                  </CardHeader>
+                  <CardContent className="space-y-4">
+                    <div className="space-y-2">
+                      <Label htmlFor="facebookPixelId">Facebook Pixel ID</Label>
+                      <Input
+                        id="facebookPixelId"
+                        name="facebookPixelId"
+                        value={formData.facebookPixelId}
+                        onChange={handleInputChange}
+                        placeholder="123456789012345"
+                        disabled={isSaving}
+                      />
+                      <p className="text-xs text-muted-foreground">
+                        Find your Pixel ID in Facebook Events Manager
+                      </p>
+                    </div>
+
+                    <div className="flex items-center justify-between">
+                      <div className="space-y-0.5">
+                        <Label htmlFor="facebookPixelEnabled">Enable Facebook Pixel</Label>
+                        <p className="text-sm text-muted-foreground">
+                          Track conversions and run ads on your shop
+                        </p>
+                      </div>
+                      <input
+                        id="facebookPixelEnabled"
+                        name="facebookPixelEnabled"
+                        type="checkbox"
+                        checked={formData.facebookPixelEnabled}
+                        onChange={handleInputChange}
+                        disabled={isSaving}
+                        className="h-4 w-4 rounded border-gray-300 text-primary focus:ring-primary"
+                      />
+                    </div>
+
+                    {formData.facebookPixelEnabled && formData.facebookPixelId && (
+                      <div className="p-3 bg-green-50 border border-green-200 rounded-md">
+                        <p className="text-sm text-green-800">
+                          ✓ Facebook Pixel is active with ID: {formData.facebookPixelId}
+                        </p>
+                      </div>
+                    )}
+
+                    {formData.facebookPixelEnabled && !formData.facebookPixelId && (
+                      <div className="p-3 bg-yellow-50 border border-yellow-200 rounded-md">
+                        <p className="text-sm text-yellow-800">
+                          ⚠ Please enter a valid Pixel ID to enable tracking
+                        </p>
+                      </div>
+                    )}
+
+                    <Button onClick={handleSaveFacebookPixel} disabled={isSaving}>
+                      {isSaving ? "Saving..." : "Save Facebook Pixel Settings"}
+                    </Button>
+                  </CardContent>
+                </Card>
 
                 <div className="flex items-center justify-between p-4 border border-border rounded-lg">
                   <div>
@@ -414,10 +443,6 @@ export default function SettingsPage() {
                   </Button>
                 </div>
               </div>
-
-              <Button onClick={handleSaveIntegrations} disabled={isSaving}>
-                {isSaving ? "Saving..." : "Save Integration Settings"}
-              </Button>
             </CardContent>
           </Card>
         </TabsContent>
