@@ -23,6 +23,16 @@ interface ProductImage {
   sort_order: number;
 }
 
+interface ShopTheme {
+  id: string;
+  name?: string;
+  logo_url?: string | null;
+  banner_url?: string | null;
+  primary_color?: string;
+  secondary_color?: string;
+  accent_color?: string | null;
+}
+
 export default function ProductPage() {
   const params = useParams();
   const shopSlug = params.slug as string;       // ex: "tech-store"
@@ -32,6 +42,7 @@ export default function ProductPage() {
 
   const [product, setProduct] = useState<Product | null>(null);
   const [shopId, setShopId] = useState<string | null>(null);
+  const [shopTheme, setShopTheme] = useState<ShopTheme | null>(null);
   const [images, setImages] = useState<ProductImage[]>([]);
   const [activeImage, setActiveImage] = useState<string | null>(null);
   const [isLoading, setIsLoading] = useState(true);
@@ -46,10 +57,10 @@ export default function ProductPage() {
       setErrorMsg(null);
 
       try {
-        // 1) Trouver la boutique par slug
+        // 1) Trouver la boutique par slug (include theme fields)
         const { data: shop, error: shopError } = await supabase
           .from("shops")
-          .select("id, name")
+          .select("id, name, logo_url, banner_url, primary_color, secondary_color, accent_color")
           .eq("slug", shopSlug)
           .single();
 
@@ -61,6 +72,15 @@ export default function ProductPage() {
         }
 
         setShopId(shop.id);
+        setShopTheme({
+          id: shop.id,
+          name: shop.name,
+          logo_url: shop.logo_url || null,
+          banner_url: shop.banner_url || null,
+          primary_color: shop.primary_color || "#06b6d4",
+          secondary_color: shop.secondary_color || "#6366f1",
+          accent_color: shop.accent_color || "#f59e0b",
+        });
 
         // 2) Trouver le produit dans cette boutique
         const { data: prod, error: prodError } = await supabase
@@ -128,10 +148,7 @@ export default function ProductPage() {
     return (
       <div className="min-h-screen flex flex-col items-center justify-center bg-slate-50">
         <div className="text-red-500 mb-2">{errorMsg}</div>
-        <Link
-          href={`/shop/${shopSlug}`}
-          className="text-xs text-sky-600 hover:underline"
-        >
+        <Link href={`/shop/${shopSlug}`} className="text-xs hover:underline" style={{ color: shopTheme?.primary_color || '#06b6d4' }}>
           Retour à la boutique
         </Link>
       </div>
@@ -142,10 +159,7 @@ export default function ProductPage() {
     return (
       <div className="min-h-screen flex flex-col items-center justify-center bg-slate-50">
         <div className="text-gray-600 mb-2">Produit introuvable.</div>
-        <Link
-          href={`/shop/${shopSlug}`}
-          className="text-xs text-sky-600 hover:underline"
-        >
+        <Link href={`/shop/${shopSlug}`} className="text-xs hover:underline" style={{ color: shopTheme?.primary_color || '#06b6d4' }}>
           Retour à la boutique
         </Link>
       </div>
@@ -157,7 +171,12 @@ export default function ProductPage() {
   return (
     <div className="min-h-screen bg-slate-50">
       {/* HEADER / BREADCRUMB */}
-      <section className="bg-gradient-to-r from-sky-500 to-indigo-600 text-white">
+      <section
+        className="text-white"
+        style={{
+          background: `linear-gradient(90deg, ${shopTheme?.primary_color || '#06b6d4'} 0%, ${shopTheme?.secondary_color || '#6366f1'} 100%)`,
+        }}
+      >
         <div className="max-w-6xl mx-auto px-4 py-6 flex flex-col gap-3">
           <div className="text-[11px] text-white/80 flex items-center gap-1">
             <Link href={`/shop/${shopSlug}`} className="hover:underline">
@@ -179,60 +198,73 @@ export default function ProductPage() {
 
       {/* CONTENU */}
       <main className="max-w-6xl mx-auto px-4 pb-10 -mt-4 relative z-10">
+        {/* Mobile: full-width product image above the card for larger view */}
+        <div className="md:hidden mb-4">
+          <div className="relative w-full rounded-xl overflow-hidden border border-slate-200 bg-slate-50">
+            <div className="relative h-[60vh] w-full">
+              { (activeImage || fallbackImage) ? (
+                <Image src={activeImage || (fallbackImage as string)} alt={product.name} fill className="object-cover" priority />
+              ) : (
+                <div className="flex items-center justify-center h-full text-gray-400 text-sm">Aucune image</div>
+              )}
+            </div>
+          </div>
+        </div>
         <div className="bg-white rounded-2xl shadow-lg p-4 md:p-6 border border-slate-100">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-10">
             {/* GALERIE D'IMAGES */}
             <div className="flex flex-col md:flex-row gap-4">
-              {/* Miniatures */}
-              <div className="flex md:flex-col gap-2 md:w-24">
-                {images.length > 0
-                  ? images.map((img, i) => (
-                      <button
-                        key={i}
-                        type="button"
-                        onClick={() => setActiveImage(img.image_url)}
-                        className={`relative h-20 w-20 rounded-md overflow-hidden border ${
-                          activeImage === img.image_url
-                            ? "ring-2 ring-sky-500"
-                            : "border-slate-200"
-                        }`}
-                      >
-                        <Image
-                          src={img.image_url}
-                          alt={`Image ${i + 1}`}
-                          fill
-                          className="object-cover"
-                        />
-                      </button>
-                    ))
-                  : fallbackImage && (
-                      <div className="relative h-20 w-20 rounded-md overflow-hidden border border-slate-200">
-                        <Image
-                          src={fallbackImage}
-                          alt={product.name}
-                          fill
-                          className="object-cover"
-                        />
-                      </div>
-                    )}
-              </div>
+                {/* Image principale (mobile-first) */}
+                <div className="relative flex-1 h-[60vh] sm:h-[520px] md:h-[560px] rounded-xl overflow-hidden border border-slate-200 bg-slate-50">
+                  {activeImage || fallbackImage ? (
+                    <Image
+                      src={activeImage || (fallbackImage as string)}
+                      alt={product.name}
+                      fill
+                      className="object-cover"
+                      priority
+                    />
+                  ) : (
+                    <div className="flex items-center justify-center h-full text-gray-400 text-sm">
+                      Aucune image
+                    </div>
+                  )}
+                </div>
 
-              {/* Image principale */}
-              <div className="relative flex-1 h-[360px] md:h-[420px] rounded-xl overflow-hidden border border-slate-200 bg-slate-50">
-                {activeImage || fallbackImage ? (
-                  <Image
-                    src={activeImage || (fallbackImage as string)}
-                    alt={product.name}
-                    fill
-                    className="object-cover"
-                    priority
-                  />
-                ) : (
-                  <div className="flex items-center justify-center h-full text-gray-400 text-sm">
-                    Aucune image
-                  </div>
-                )}
-              </div>
+                {/* Miniatures (horizontales sur mobile, colonne sur desktop) */}
+                <div className="flex md:flex-col gap-5 md:w-32 overflow-x-auto md:overflow-visible justify-center md:justify-start px-4 snap-x snap-mandatory -mx-4 md:mx-0">
+                  {images.length > 0
+                    ? images.map((img, i) => (
+                        <button
+                          key={i}
+                          type="button"
+                          onClick={() => setActiveImage(img.image_url)}
+                          className={`relative h-24 w-24 md:h-28 md:w-28 rounded-md overflow-hidden border flex-shrink-0 snap-center`}
+                          style={
+                            activeImage === img.image_url
+                              ? { boxShadow: `0 0 0 4px ${shopTheme?.primary_color || '#06b6d4'}` }
+                              : undefined
+                          }
+                        >
+                          <Image
+                            src={img.image_url}
+                            alt={`Image ${i + 1}`}
+                            fill
+                            className="object-cover"
+                          />
+                        </button>
+                      ))
+                    : fallbackImage && (
+                        <div className="relative h-24 w-24 md:h-28 md:w-28 rounded-md overflow-hidden border border-slate-200">
+                          <Image
+                            src={fallbackImage}
+                            alt={product.name}
+                            fill
+                            className="object-cover"
+                          />
+                        </div>
+                      )}
+                </div>
             </div>
 
             {/* INFOS PRODUIT */}
@@ -240,7 +272,7 @@ export default function ProductPage() {
               {/* Prix */}
               <div>
                 <div className="flex items-center gap-3">
-                  <span className="text-3xl font-bold text-sky-600">
+                  <span className="text-3xl font-bold" style={{ color: shopTheme?.primary_color || '#06b6d4' }}>
                     {product.price} TND
                   </span>
                   {product.compare_at_price && (
@@ -292,7 +324,8 @@ export default function ProductPage() {
                             num_items: 1,
                           });
                         }}
-                        className="block w-full text-center py-3 rounded-full text-sm font-semibold shadow-sm bg-sky-500 hover:bg-sky-600 text-white transition-colors"
+                        className="block w-full text-center py-3 rounded-full text-sm font-semibold shadow-sm text-white transition-colors"
+                        style={{ backgroundColor: shopTheme?.primary_color || '#06b6d4' }}
                       >
                         Acheter maintenant
                       </button>
@@ -333,6 +366,7 @@ export default function ProductPage() {
                 }}
                 shopSlug={shopSlug}
                 shopId={shopId}
+                shopTheme={shopTheme || undefined}
               />
             </div>
           )}
