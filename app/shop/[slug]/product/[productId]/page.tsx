@@ -5,7 +5,7 @@ import { useParams } from "next/navigation";
 import Link from "next/link";
 import Image from "next/image";
 import { createClient } from "@/lib/supabase/client";
-import { initPixel, track } from "@/lib/fbpixel";
+import { track } from "@/lib/fbpixel";
 
 interface Product {
   id: string;
@@ -46,7 +46,7 @@ export default function ProductPage() {
         // 1) Trouver la boutique par slug
         const { data: shop, error: shopError } = await supabase
           .from("shops")
-          .select("id, name, facebook_pixel_id")
+          .select("id, name")
           .eq("slug", shopSlug)
           .single();
 
@@ -90,36 +90,14 @@ export default function ProductPage() {
           imgsArray[0]?.image_url || prod.image_url || null;
         setActiveImage(firstImage);
 
-        // Initialiser le Facebook Pixel si disponible
-        if (shop?.facebook_pixel_id) {
-          console.log(`[Product Page] Shop: ${shop.name} (ID: ${shop.id})`);
-          console.log(`[Product Page] Using Pixel ID: ${shop.facebook_pixel_id} for this shop`);
-          initPixel(shop.facebook_pixel_id);
-
-          // Check if Pixel is initialized before tracking
-          const trackEvent = () => {
-            if (typeof window.fbq === "function") {
-              console.log(`[Product Page] Tracking ViewContent for product: ${prod.name}`);
-              track("ViewContent", {
-                content_name: prod.name,
-                content_ids: [prod.id],
-                content_type: "product",
-                value: prod.price,
-                currency: "TND",
-              });
-            } else {
-              console.warn("[Product Page] Facebook Pixel is not initialized. Retrying...");
-              setTimeout(trackEvent, 500); // Retry after 500ms
-            }
-          };
-
-          // Start tracking after a short delay
-          setTimeout(trackEvent, 300);
-        } else {
-          console.warn(`[Product Page] Shop: ${shop?.name || 'Unknown'} (ID: ${shop?.id || 'Unknown'})`);
-          console.warn("[Product Page] No Facebook Pixel ID configured for this shop");
-          console.log("[Product Page] Shop data:", shop);
-        }
+        // Track ViewContent event for Facebook Pixel
+        track("ViewContent", {
+          content_ids: [prod.id],
+          content_name: prod.name,
+          content_type: "product",
+          value: prod.price,
+          currency: "TND", // TODO: Get from shop settings
+        });
       } catch (err) {
         console.error("Error loading product page:", err);
         setErrorMsg("Erreur lors du chargement du produit");
@@ -296,16 +274,6 @@ export default function ProductPage() {
               <div className="mt-2">
                 <a
                   href={`/shop/${shopSlug}/product/${product.id}/checkout`}
-                  onClick={() => {
-                    // Tracker AddToCart
-                    track("AddToCart", {
-                      content_name: product.name,
-                      content_ids: [product.id],
-                      content_type: "product",
-                      value: product.price,
-                      currency: "TND",
-                    });
-                  }}
                   className={`block w-full text-center py-3 rounded-full text-sm font-semibold shadow-sm ${
                     product.quantity > 0
                       ? "bg-sky-500 hover:bg-sky-600 text-white"
