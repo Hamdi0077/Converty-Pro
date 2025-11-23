@@ -6,6 +6,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { createClient } from "@/lib/supabase/client";
 import { track } from "@/lib/fbpixel";
+import { InlineCheckoutForm } from "@/components/shop/InlineCheckoutForm";
 
 interface Product {
   id: string;
@@ -30,10 +31,12 @@ export default function ProductPage() {
   const supabase = createClient();
 
   const [product, setProduct] = useState<Product | null>(null);
+  const [shopId, setShopId] = useState<string | null>(null);
   const [images, setImages] = useState<ProductImage[]>([]);
   const [activeImage, setActiveImage] = useState<string | null>(null);
   const [isLoading, setIsLoading] = useState(true);
   const [errorMsg, setErrorMsg] = useState<string | null>(null);
+  const [showCheckout, setShowCheckout] = useState(false);
 
   useEffect(() => {
     if (!shopSlug || !productId) return;
@@ -56,6 +59,8 @@ export default function ProductPage() {
           setIsLoading(false);
           return;
         }
+
+        setShopId(shop.id);
 
         // 2) Trouver le produit dans cette boutique
         const { data: prod, error: prodError } = await supabase
@@ -272,21 +277,35 @@ export default function ProductPage() {
 
               {/* CTA */}
               <div className="mt-2">
-                <a
-                  href={`/shop/${shopSlug}/product/${product.id}/checkout`}
-                  className={`block w-full text-center py-3 rounded-full text-sm font-semibold shadow-sm ${
-                    product.quantity > 0
-                      ? "bg-sky-500 hover:bg-sky-600 text-white"
-                      : "bg-slate-300 text-slate-600 cursor-not-allowed"
-                  }`}
-                >
-                  {product.quantity > 0
-                    ? "Commander maintenant"
-                    : "Actuellement indisponible"}
-                </a>
-                <p className="mt-2 text-[11px] text-slate-500 text-center">
-                  Paiement à la livraison • Service client disponible
-                </p>
+                {product.quantity > 0 ? (
+                  <>
+                    {!showCheckout ? (
+                      <button
+                        onClick={() => {
+                          setShowCheckout(true);
+                          track("InitiateCheckout", {
+                            content_ids: [product.id],
+                            content_name: product.name,
+                            content_type: "product",
+                            value: product.price,
+                            currency: "TND",
+                            num_items: 1,
+                          });
+                        }}
+                        className="block w-full text-center py-3 rounded-full text-sm font-semibold shadow-sm bg-sky-500 hover:bg-sky-600 text-white transition-colors"
+                      >
+                        Acheter maintenant
+                      </button>
+                    ) : null}
+                    <p className="mt-2 text-[11px] text-slate-500 text-center">
+                      Paiement à la livraison • Service client disponible
+                    </p>
+                  </>
+                ) : (
+                  <div className="block w-full text-center py-3 rounded-full text-sm font-semibold bg-slate-300 text-slate-600 cursor-not-allowed">
+                    Actuellement indisponible
+                  </div>
+                )}
               </div>
 
               {/* Lien retour */}
@@ -300,6 +319,23 @@ export default function ProductPage() {
               </div>
             </div>
           </div>
+
+          {/* Inline Checkout Form */}
+          {showCheckout && shopId && product.quantity > 0 && (
+            <div className="mt-8 md:col-span-2">
+              <InlineCheckoutForm
+                product={{
+                  id: product.id,
+                  name: product.name,
+                  price: product.price,
+                  quantity: product.quantity,
+                  image_url: product.image_url,
+                }}
+                shopSlug={shopSlug}
+                shopId={shopId}
+              />
+            </div>
+          )}
         </div>
       </main>
     </div>
