@@ -14,6 +14,7 @@ interface Product {
   status: string;
   image_url: string | null;
   created_at: string;
+  is_archived?: boolean; // ✅ nouvel attribut
 }
 
 export default function ProductsPage() {
@@ -22,7 +23,7 @@ export default function ProductsPage() {
   const [products, setProducts] = useState<Product[]>([]);
   const [shopSlug, setShopSlug] = useState<string | null>(null);
   const [loading, setLoading] = useState(true);
-  const [deletingId, setDeletingId] = useState<string | null>(null);
+  const [archivingId, setArchivingId] = useState<string | null>(null);
 
   useEffect(() => {
     loadProducts();
@@ -58,13 +59,14 @@ export default function ProductsPage() {
 
       setShopSlug(shop.slug);
 
-      // 3) Charger les produits de cette boutique
+      // 3) Charger les produits NON ARCHIVÉS de cette boutique ✅
       const { data, error } = await supabase
         .from("products")
         .select(
-          "id, name, price, quantity, status, image_url, created_at"
+          "id, name, price, quantity, status, image_url, created_at, is_archived"
         )
         .eq("shop_id", shop.id)
+        .eq("is_archived", false) // ✅ filtre important
         .order("created_at", { ascending: false });
 
       if (error) {
@@ -81,67 +83,36 @@ export default function ProductsPage() {
     }
   };
 
- const handleDeleteProduct = async (productId: string) => {
-  const confirmDelete = window.confirm(
-    "Are you sure you want to delete this product and all related data (images, order items)?"
-  );
-  if (!confirmDelete) return;
-
-  try {
-    setDeletingId(productId);
-
-    // 1) Supprimer les lignes de order_items liées à ce produit
-    const { error: orderItemsError } = await supabase
-      .from("order_items")
-      .delete()
-      .eq("product_id", productId);
-
-    if (orderItemsError) {
-      console.error("Error deleting order items:", orderItemsError);
-      alert(
-        "Failed to delete order items for this product: " +
-          orderItemsError.message
-      );
-      setDeletingId(null);
-      return;
-    }
-
-    // 2) Supprimer les images liées dans product_images
-    const { error: imgError } = await supabase
-      .from("product_images")
-      .delete()
-      .eq("product_id", productId);
-
-    if (imgError) {
-      console.error("Error deleting product images:", imgError);
-      // on ne bloque pas forcément la suite, mais tu peux mettre un return ici si tu veux
-    }
-
-    // 3) Supprimer le produit lui-même
-    const { error: prodError } = await supabase
-      .from("products")
-      .delete()
-      .eq("id", productId);
-
-    if (prodError) {
-      console.error("Error deleting product:", prodError);
-      alert("Failed to delete product: " + prodError.message);
-      setDeletingId(null);
-      return;
-    }
-
-    // 4) Mettre à jour la liste côté UI
-    setProducts((prev) => prev.filter((p) => p.id !== productId));
-  } catch (err: any) {
-    console.error("Unexpected delete error:", err);
-    alert(
-      "Failed to delete product: " + (err?.message || "Unexpected error")
+  // ✅ ARCHIVER produit (au lieu de supprimer)
+  const handleArchiveProduct = async (productId: string) => {
+    const confirmArchive = window.confirm(
+      "Are you sure you want to archive this product? It will disappear from your shop but stay in past orders."
     );
-  } finally {
-    setDeletingId(null);
-  }
-};
+    if (!confirmArchive) return;
 
+    try {
+      setArchivingId(productId);
+
+      const { error } = await supabase
+        .from("products")
+        .update({ is_archived: true })
+        .eq("id", productId);
+
+      if (error) {
+        console.error("Error archiving product:", error);
+        alert("Failed to archive product: " + error.message);
+        return;
+      }
+
+      // ✅ enlever du UI directement
+      setProducts((prev) => prev.filter((p) => p.id !== productId));
+    } catch (err: any) {
+      console.error("Unexpected archive error:", err);
+      alert("Failed to archive product: " + (err?.message || "Unexpected error"));
+    } finally {
+      setArchivingId(null);
+    }
+  };
 
   return (
     <div className="space-y-6">
@@ -225,14 +196,14 @@ export default function ProductsPage() {
                     </Link>
                   )}
 
-                  {/* Supprimer */}
+                  {/* ✅ Archiver */}
                   <Button
                     variant="destructive"
                     size="sm"
-                    onClick={() => handleDeleteProduct(p.id)}
-                    disabled={deletingId === p.id}
+                    onClick={() => handleArchiveProduct(p.id)}
+                    disabled={archivingId === p.id}
                   >
-                    {deletingId === p.id ? "Suppression..." : "Supprimer"}
+                    {archivingId === p.id ? "Archivage..." : "Archiver"}
                   </Button>
                 </div>
               </div>
