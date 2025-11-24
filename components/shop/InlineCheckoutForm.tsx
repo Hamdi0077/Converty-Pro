@@ -5,7 +5,8 @@ import { useRouter } from "next/navigation";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
-import { track } from "@/lib/fbpixel";
+import { track, initPixel, isPixelReady } from "@/lib/fbpixel";
+import { createClient } from "@/lib/supabase/client";
 
 interface InlineCheckoutFormProps {
   product: {
@@ -17,9 +18,14 @@ interface InlineCheckoutFormProps {
   };
   shopSlug: string;
   shopId: string;
+  shopTheme?: {
+    primary_color?: string;
+    secondary_color?: string;
+    accent_color?: string | null;
+  };
 }
 
-export function InlineCheckoutForm({ product, shopSlug, shopId }: InlineCheckoutFormProps) {
+export function InlineCheckoutForm({ product, shopSlug, shopId, shopTheme }: InlineCheckoutFormProps) {
   const router = useRouter();
   const [quantity, setQuantity] = useState(1);
   const [customerName, setCustomerName] = useState("");
@@ -94,22 +100,44 @@ export function InlineCheckoutForm({ product, shopSlug, shopId }: InlineCheckout
         throw new Error(data.error || "Erreur lors de la création de la commande");
       }
 
-      // Track Purchase event
-      track("Purchase", {
-        content_ids: [product.id],
-        content_name: product.name,
-        content_type: "product",
-        value: subtotal,
-        currency: "TND",
-        num_items: quantity,
-        contents: [
-          {
-            id: product.id,
-            quantity: quantity,
-            item_price: product.price,
-          },
-        ],
-      });
+      // Ensure pixel initialized (fallback) then Track Purchase event
+      try {
+        if (!isPixelReady()) {
+          // Try to initialize pixel quickly using shop config
+          try {
+            const supabaseClient = createClient();
+            const { data: shop } = await supabaseClient
+              .from("shops")
+              .select("facebook_pixel_id, facebook_pixel_enabled")
+              .eq("id", shopId)
+              .single();
+
+            if (shop && shop.facebook_pixel_enabled && shop.facebook_pixel_id) {
+              await initPixel(shop.facebook_pixel_id);
+            }
+          } catch (initErr) {
+            console.warn("Could not init pixel before tracking purchase:", initErr);
+          }
+        }
+
+        track("Purchase", {
+          content_ids: [product.id],
+          content_name: product.name,
+          content_type: "product",
+          value: subtotal,
+          currency: "TND",
+          num_items: quantity,
+          contents: [
+            {
+              id: product.id,
+              quantity: quantity,
+              item_price: product.price,
+            },
+          ],
+        });
+      } catch (trackErr) {
+        console.warn("Purchase track failed:", trackErr);
+      }
 
       // Redirect to success page
       router.push(`/shop/${shopSlug}/success?orderId=${data.orderId}`);
@@ -162,7 +190,7 @@ export function InlineCheckoutForm({ product, shopSlug, shopId }: InlineCheckout
               +
             </Button>
             <span className="text-sm text-slate-600">
-              Total: <span className="font-bold text-sky-600">{total.toFixed(2)} TND</span>
+              Total: <span className="font-bold" style={{ color: shopTheme?.primary_color || '#06b6d4' }}>{total.toFixed(2)} TND</span>
             </span>
           </div>
         </div>
@@ -246,7 +274,8 @@ export function InlineCheckoutForm({ product, shopSlug, shopId }: InlineCheckout
         {/* Bouton submit */}
         <Button
           type="submit"
-          className="w-full bg-sky-500 hover:bg-sky-600 text-white"
+          className="w-full text-white"
+          style={{ backgroundColor: shopTheme?.primary_color || '#06b6d4' }}
           disabled={isSubmitting || product.quantity === 0}
         >
           {isSubmitting ? "Traitement..." : "Valider la commande"}
