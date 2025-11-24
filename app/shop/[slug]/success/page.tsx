@@ -2,6 +2,7 @@ import { Suspense } from "react";
 import Link from "next/link";
 import { createClient } from "@/lib/supabase/server";
 import Image from "next/image";
+import PurchaseTracker from "@/components/shop/PurchaseTracker";
 
 interface Order {
   id: string;
@@ -28,18 +29,20 @@ interface Order {
 async function OrderSummary({ orderId, shopSlug }: { orderId: string; shopSlug: string }) {
   const supabase = await createClient();
 
-  // Get shop first
+  // Get shop first (include theme fields)
   const { data: shop } = await supabase
     .from("shops")
-    .select("id, name")
+    .select("id, name, primary_color, secondary_color")
     .eq("slug", shopSlug)
     .single();
+
+  const primary = shop?.primary_color || "#06b6d4";
 
   if (!shop) {
     return (
       <div className="text-center">
         <p className="text-red-500 mb-4">Boutique introuvable</p>
-        <Link href={`/shop/${shopSlug}`} className="text-sky-600 hover:underline">
+        <Link href={`/shop/${shopSlug}`} className="text-xs hover:underline" style={{ color: primary }}>
           Retour à la boutique
         </Link>
       </div>
@@ -93,7 +96,7 @@ async function OrderSummary({ orderId, shopSlug }: { orderId: string; shopSlug: 
             <p className="text-sm text-slate-500 mb-4">Numéro de commande: <span className="font-mono">{orderId.toString().slice(0,8)}</span></p>
           )}
           <div className="mt-4">
-            <Link href={`/shop/${shopSlug}`} className="inline-block px-6 py-3 rounded-full bg-sky-500 hover:bg-sky-600 text-white font-semibold">
+            <Link href={`/shop/${shopSlug}`} className="inline-block px-6 py-3 rounded-full text-white font-semibold" style={{ backgroundColor: primary }}>
               Retour à la boutique
             </Link>
           </div>
@@ -106,6 +109,14 @@ async function OrderSummary({ orderId, shopSlug }: { orderId: string; shopSlug: 
 
   return (
     <div className="bg-white rounded-2xl shadow-lg p-6 md:p-8 border border-slate-100">
+      {/* Purchase tracker (client) - dynamically import to avoid SSR */}
+      {/**/}
+      <DynamicPurchaseTracker
+        orderId={orderData.id}
+        total={orderData.total_amount}
+        currency={"TND"}
+        items={orderData.order_items || []}
+      />
       {/* Success message */}
       <div className="text-center mb-8">
         <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-emerald-100 mb-4">
@@ -178,7 +189,7 @@ async function OrderSummary({ orderId, shopSlug }: { orderId: string; shopSlug: 
         <div className="border-t border-slate-200 pt-4">
           <div className="flex justify-between items-center">
             <span className="text-lg font-semibold text-slate-800">Total</span>
-            <span className="text-2xl font-bold text-sky-600">
+            <span className="text-2xl font-bold" style={{ color: primary }}>
               {orderData.total_amount.toFixed(2)} TND
             </span>
           </div>
@@ -224,7 +235,8 @@ async function OrderSummary({ orderId, shopSlug }: { orderId: string; shopSlug: 
       <div className="border-t border-slate-200 pt-6 mt-6">
         <Link
           href={`/shop/${shopSlug}`}
-          className="block w-full text-center py-3 rounded-full bg-sky-500 hover:bg-sky-600 text-white font-semibold transition-colors"
+          className="block w-full text-center py-3 rounded-full text-white font-semibold transition-colors"
+          style={{ backgroundColor: primary }}
         >
           Retour à la boutique
         </Link>
