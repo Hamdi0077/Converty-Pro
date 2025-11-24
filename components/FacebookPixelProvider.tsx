@@ -130,4 +130,3 @@ export function FacebookPixelProvider({ children }: FacebookPixelProviderProps) 
 
   return <>{children}</>;
 }
-
